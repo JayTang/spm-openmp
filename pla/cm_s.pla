@@ -1,0 +1,7 @@
+.i 14
+.o 5
+.ilb a b c d e f g h i j k l m n
+.ob o p q r s
+.p 1
+----1----1---1 00001
+.e

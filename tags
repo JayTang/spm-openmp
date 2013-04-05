@@ -1,0 +1,1434 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABS	include/utility.h	48;"	d
+ACTIVE	include/espresso.h	116;"	d
+ALLOC	include/utility.h	11;"	d
+ALLOC	include/utility.h	53;"	d
+ALLOC	include/utility.h	55;"	d
+ARGS	include/ansi.h	20;"	d
+ARGS	include/ansi.h	22;"	d
+ARRAY_H	include/array.h	11;"	d
+And_All_Set	new.c	/^And_All_Set(pset *pOut, pset set)$/;"	f	signature:(pset *pOut, pset set)
+Assign_DC	spm_util.c	/^pcover Assign_DC(pcover *F, pset tmp1, pset tmp2)$/;"	f	signature:(pcover *F, pset tmp1, pset tmp2)
+Average_Weight_Compare	spm-old.h	/^extern int Average_Weight_Compare(const void *, const void *);$/;"	p	signature:(const void *, const void *)
+Average_Weight_Compare	spm.h	/^extern int Average_Weight_Compare(const void *, const void *);$/;"	p	signature:(const void *, const void *)
+Average_Weight_Compare	spm_util.c	/^int Average_Weight_Compare(const void *p, const void *q)$/;"	f	signature:(const void *p, const void *q)
+BPI	include/espresso.h	22;"	d
+BPI	include/espresso.h	50;"	d
+BW_TIME	include/espresso.h	379;"	d
+CC	makefile	/^CC = gcc$/;"	m
+CFLAGS	makefile	/^CFLAGS = -Wall -fopenmp -std=c99 -I$(INCLUDE)$/;"	m
+CHECK	new.c	3;"	d	file:
+COMPL	include/espresso.h	337;"	d
+COMPL_TIME	include/espresso.h	359;"	d
+CONST	include/port.h	101;"	d
+CONST	include/port.h	104;"	d
+CONSTRAINTS_type	include/espresso.h	329;"	d
+COVERED	include/espresso.h	118;"	d
+CUBELISTSIZE	include/espresso.h	315;"	d
+CUBE_TEMP	include/espresso.h	463;"	d
+Cal_Term	spm_util.c	/^int Cal_Term(pcover F)$/;"	f	signature:(pcover F)
+Cal_Term_Step	spm_util.c	/^int Cal_Term_Step(pcube *clist, int vars)$/;"	f	signature:(pcube *clist, int vars)
+Clear_Col_Inputs	sym_exact.c	/^Clear_Col_Inputs(pcover WSS, pset set)$/;"	f	signature:(pcover WSS, pset set)
+Clear_Inputs	sym_exact.c	/^Clear_Inputs(pcover WSS, pset set)$/;"	f	signature:(pcover WSS, pset set)
+Clear_Row_Inputs	sym_exact.c	/^Clear_Row_Inputs(pcover WSS, pset set)$/;"	f	signature:(pcover WSS, pset set)
+Cofactor_Equal	sym_naive.c	/^Cofactor_Equal(pcube *clist, pcube set1, pcube set2)$/;"	f	signature:(pcube *clist, pcube set1, pcube set2)
+Compute_SPM_Weight	spm-old.h	/^extern unsigned *Compute_SPM_Weight(pcover, pset);$/;"	p	signature:(pcover, pset)
+Compute_SPM_Weight	spm.h	/^extern unsigned *Compute_SPM_Weight(pcover, pset);$/;"	p	signature:(pcover, pset)
+Cover_Identical	khwang/khwang_general.c	/^bool Cover_Identical(pcover F, pcover G)$/;"	f	signature:(pcover F, pcover G)
+Cover_Identical	khwang_symmetry.c	/^bool Cover_Identical(pcover F, pcover G)$/;"	f	signature:(pcover F, pcover G)
+Cover_Identical	spm.h	/^bool Cover_Identical(pcover F, pcover G);$/;"	p	signature:(pcover F, pcover G)
+Create_Cube	sym_util.c	/^pcube Create_Cube(int i, int j, bool ci, bool cj)$/;"	f	signature:(int i, int j, bool ci, bool cj)
+Create_Cube1	sym_util.c	/^pcube Create_Cube1(int i, bool ci)$/;"	f	signature:(int i, bool ci)
+Cube_Weight_by_SPM	new.c	/^Cube_Weight_by_SPM(unsigned *cost, pset set, pset check)$/;"	f	signature:(unsigned *cost, pset set, pset check)
+Cube_Weight_by_SPM	spm-old.h	/^extern unsigned Cube_Weight_by_SPM(unsigned *, pset, pset);$/;"	p	signature:(unsigned *, pset, pset)
+Cube_Weight_by_SPM	spm.h	/^extern unsigned Cube_Weight_by_SPM(unsigned *, pset, pset);$/;"	p	signature:(unsigned *, pset, pset)
+D	include/espresso.h	/^    pcover F, D, R;		\/* on-set, off-set and dc-set *\/$/;"	m	struct:__anon1	access:public
+DASH	include/espresso.h	404;"	d
+DC_Cube	main.c	/^const unsigned int DC_Cube = 0xffffffff;   \/\/ 1111....1111$/;"	v
+DEBUG	makefile	/^DEBUG = -g$/;"	m
+DISJOINT	include/espresso.h	503;"	d
+DISJOINT	include/espresso.h	506;"	d
+DISJOINT	include/espresso.h	508;"	d
+DR_type	include/espresso.h	333;"	d
+D_type	include/espresso.h	324;"	d
+Del_Empty_Set	sym_greedy.c	/^Del_Empty_Set(pcover T)$/;"	f	signature:(pcover T)
+EQNTOTT_type	include/espresso.h	327;"	d
+ERRTRAP_H	include/errtrap.h	2;"	d
+ERR_IGNORE	include/errtrap.h	15;"	d
+ERR_PKG_NAME	include/errtrap.h	6;"	d
+ESSEN	include/espresso.h	338;"	d
+ESSEN_TIME	include/espresso.h	361;"	d
+ETRAUX_TIME	include/espresso.h	376;"	d
+ETR_TIME	include/espresso.h	375;"	d
+EXACT	include/espresso.h	347;"	d
+EXEC	include/espresso.h	409;"	d
+EXECUTE	include/espresso.h	413;"	d
+EXEC_S	include/espresso.h	411;"	d
+EXPAND	include/espresso.h	339;"	d
+EXPAND1	include/espresso.h	340;"	d
+EXPAND_TIME	include/espresso.h	362;"	d
+Edges_Count	spm_util.c	/^int Edges_Count(pcover M)$/;"	f	signature:(pcover M)
+EmptyCover	khwang/khwang_unused.c	/^bool EmptyCover(pcover F)$/;"	f	signature:(pcover F)
+Equivalent_Class	spm.h	/^extern void Equivalent_Class(pcover F);$/;"	p	signature:(pcover F)
+Equivalent_Class	spm_util.c	/^void Equivalent_Class(pcover F)$/;"	f	signature:(pcover F)
+Exact_Max_Symmetries_Of_Set	spm.h	/^extern pcover Exact_Max_Symmetries_Of_Set(pcover *F, pcover *R, pcover *D, int op);$/;"	p	signature:(pcover *F, pcover *R, pcover *D, int op)
+Exact_Max_Symmetries_Of_Set	sym_greedy.c	/^Exact_Max_Symmetries_Of_Set(pcover *F, pcover *R, pcover *D, int op)$/;"	f	signature:(pcover *F, pcover *R, pcover *D, int op)
+Exact_Maximum_Symmetries	spm.h	/^extern pcover Exact_Maximum_Symmetries(pcover *F, pcover *R, pcover *D, int op);$/;"	p	signature:(pcover *F, pcover *R, pcover *D, int op)
+Exact_Maximum_Symmetries	sym_exact.c	/^Exact_Maximum_Symmetries(pcover *F, pcover *R, pcover *D, int op)$/;"	f	signature:(pcover *F, pcover *R, pcover *D, int op)
+Exact_Maximum_Symmetries_Step	sym_exact.c	/^Exact_Maximum_Symmetries_Step(pcover F, pcover R, pcover *bestF, pcover *bestR, pcover WSS, pcover P, pcover I, pcover *current_best, int *current_cost, int level, pcover record, int op)$/;"	f	signature:(pcover F, pcover R, pcover *bestF, pcover *bestR, pcover WSS, pcover P, pcover I, pcover *current_best, int *current_cost, int level, pcover record, int op)
+Exclude_This_Set	spm-old.h	/^extern bool Exclude_This_Set(pset, pset);$/;"	p	signature:(pset, pset)
+Exclude_This_Set	spm.h	/^extern bool Exclude_This_Set(pset, pset);$/;"	p	signature:(pset, pset)
+F	include/espresso.h	/^    pcover F, D, R;		\/* on-set, off-set and dc-set *\/$/;"	m	struct:__anon1	access:public
+FALSE	include/espresso.h	241;"	d
+FCC_TIME	include/espresso.h	374;"	d
+FDR_type	include/espresso.h	334;"	d
+FD_type	include/espresso.h	331;"	d
+FREE	include/utility.h	16;"	d
+FR_type	include/espresso.h	332;"	d
+F_type	include/espresso.h	323;"	d
+Fill_Skew_Base	khwang/khwang_skew.c	/^void Fill_Skew_Base(Skew_t *skewp, pset a, pset p, pset q)$/;"	f	signature:(Skew_t *skewp, pset a, pset p, pset q)
+Fill_Skew_Base	spm.h	/^void Fill_Skew_Base(Skew_t *skewp, pset a, pset p, pset q);$/;"	p	signature:(Skew_t *skewp, pset a, pset p, pset q)
+Find_1ASP_Input	new.c	/^Find_1ASP_Input(pset q, pset p, pset r)\/\/ g = q - p - r; In cube q, we remove X-parts in p+r;$/;"	f	signature:(pset q, pset p, pset r)
+Find_Max_Group	sym_greedy.c	/^Find_Max_Group(pcover P, pcover WSS, int op)$/;"	f	signature:(pcover P, pcover WSS, int op)
+Find_Partition	spm.h	/^extern void Find_Partition(pcover P);$/;"	p	signature:(pcover P)
+Find_Partition	spm_util.c	/^void Find_Partition(pcover P)$/;"	f	signature:(pcover P)
+Find_Partition_Count	spm.h	/^extern void Find_Partition_Count(pcover P);$/;"	p	signature:(pcover P)
+Find_Partition_Count	spm_util.c	/^void Find_Partition_Count(pcover P)$/;"	f	signature:(pcover P)
+Find_Set_SPM	khwang/khwang_general.c	/^void Find_Set_SPM(pcover WSS)$/;"	f	signature:(pcover WSS)
+Find_Set_SPM	khwang_symmetry.c	/^void Find_Set_SPM(pcover WSS)$/;"	f	signature:(pcover WSS)
+Find_Set_SPM	spm.h	/^void Find_Set_SPM(pcover WSS);$/;"	p	signature:(pcover WSS)
+First_X	khwang/khwang_general.c	/^int First_X(pset set)$/;"	f	signature:(pset set)
+First_X	khwang_symmetry.c	/^int First_X(pset set)$/;"	f	signature:(pset set)
+First_X	spm.h	/^int First_X(pset set);$/;"	p	signature:(pset set)
+Flag	spm_util.c	/^static bool *Flag;$/;"	v	file:
+Fly_Xcnt_Set_And	khwang/khwang_unused.c	/^int Fly_Xcnt_Set_And(pset r, pset a, pset b, pset c)$/;"	f	signature:(pset r, pset a, pset b, pset c)
+Fly_Xcnt_Set_And	spm.h	/^int Fly_Xcnt_Set_And(pset r, pset a, pset b, pset c);$/;"	p	signature:(pset r, pset a, pset b, pset c)
+GASP	include/espresso.h	341;"	d
+GETINPUT	include/espresso.h	391;"	d
+GETOUTPUT	include/espresso.h	393;"	d
+GETSET	include/espresso.h	148;"	d
+GEXPAND_TIME	include/espresso.h	365;"	d
+GIRRED_TIME	include/espresso.h	366;"	d
+GREDUCE_TIME	include/espresso.h	367;"	d
+Generate_Mask	sym_greedy.c	/^Generate_Mask(pset mask, pset source)$/;"	f	signature:(pset mask, pset source)
+Generate_Matrix	spm.h	/^extern pcover Generate_Matrix(pcover);$/;"	p	signature:(pcover)
+Generate_Matrix	sym_naive.c	/^Generate_Matrix(pcover F)$/;"	f	signature:(pcover F)
+Generate_Partition	sym_util.c	/^Generate_Partition(pcover T)$/;"	f	signature:(pcover T)
+Generate_Partition2	spm_util.c	/^extern pcover Generate_Partition2(pcover);$/;"	p	file:
+Generate_Partition2	sym_heuristic.c	/^Generate_Partition2(pcover T)$/;"	f	signature:(pcover T)
+Generate_SPM	khwang/khwang_symmetry.c	/^pcover Generate_SPM(pcover F, pcover R)$/;"	f	signature:(pcover F, pcover R)
+Generate_SPM	khwang_symmetry.c	/^pcover Generate_SPM(pcover F, pcover R)$/;"	f	signature:(pcover F, pcover R)
+Generate_SPM	spm.h	/^pcover Generate_SPM(pcover F, pcover R);$/;"	p	signature:(pcover F, pcover R)
+Generate_SVSM	khwang/khwang_svs.c	/^pcover Generate_SVSM(pcover F, pcover R)$/;"	f	signature:(pcover F, pcover R)
+Generate_SVSM	spm.h	/^pcover Generate_SVSM(pcover F, pcover R);$/;"	p	signature:(pcover F, pcover R)
+Generate_SVS_Matrix	spm.h	/^extern pcover Generate_SVS_Matrix(pcover F);$/;"	p	signature:(pcover F)
+Generate_SVS_Matrix	sym_naive.c	/^Generate_SVS_Matrix(pcover F)$/;"	f	signature:(pcover F)
+Generate_Skew_Matrix	spm.h	/^extern pcover  Generate_Skew_Matrix(pcover);$/;"	p	signature:(pcover)
+Generate_Skew_Matrix	sym_naive.c	/^Generate_Skew_Matrix(pcover F)$/;"	f	signature:(pcover F)
+Generate_Skew_SPM	khwang/khwang_skew.c	/^pcover Generate_Skew_SPM(pcover F, pcover R)$/;"	f	signature:(pcover F, pcover R)
+Generate_Skew_SPM	spm.h	/^pcover Generate_Skew_SPM(pcover F, pcover R);$/;"	p	signature:(pcover F, pcover R)
+Generate_Strong_SPM	khwang/khwang.c	/^Generate_Strong_SPM(pcover F, pcover R, pcover D)$/;"	f	signature:(pcover F, pcover R, pcover D)
+Generate_Weak_SPM	khwang/khwang.c	/^Generate_Weak_SPM(pcover F, pcover R)$/;"	f	signature:(pcover F, pcover R)
+Generate_Weak_SPM	khwang_symmetry.c	/^pcover Generate_Weak_SPM(pcover F, pcover R)$/;"	f	signature:(pcover F, pcover R)
+Generate_Weak_SPM	spm.h	/^pcover Generate_Weak_SPM(pcover F, pcover R);$/;"	p	signature:(pcover F, pcover R)
+Get2Pos	symm_util.c	/^Get2Pos(pset set, int *second)$/;"	f	signature:(pset set, int *second)
+Get2Var	symm_util.c	/^Get2Var(pset set, int *second)$/;"	f	signature:(pset set, int *second)
+Get_First_Group	sym_exact.c	/^Get_First_Group(pcover P, pcover *M)$/;"	f	signature:(pcover P, pcover *M)
+Get_Inputs	sym_greedy.c	/^*Get_Inputs(pcover WSS, pset set, pset one_input, int *isize)$/;"	f	signature:(pcover WSS, pset set, pset one_input, int *isize)
+Get_Set_by_Set_SPM	spm-old.h	/^extern pset Get_Set_by_Set_SPM(pset);$/;"	p	signature:(pset)
+Get_Set_by_Set_SPM	spm.h	/^extern pset Get_Set_by_Set_SPM(pset);$/;"	p	signature:(pset)
+Get_Var_Ind	symm_util.c	/^Get_Var_Ind(pset set, int start)$/;"	f	signature:(pset set, int start)
+Get_Var_Pos	symm_util.c	/^Get_Var_Pos(pset set, int start)$/;"	f	signature:(pset set, int start)
+HUGE	include/port.h	49;"	d
+IN	include/espresso.h	318;"	d
+INCLUDE	makefile	/^INCLUDE = .\/include$/;"	m
+INLABEL	include/espresso.h	388;"	d
+INLINEset_and	include/espresso.h	166;"	d
+INLINEset_and	include/espresso.h	189;"	d
+INLINEset_clear	include/espresso.h	164;"	d
+INLINEset_clear	include/espresso.h	184;"	d
+INLINEset_copy	include/espresso.h	163;"	d
+INLINEset_copy	include/espresso.h	182;"	d
+INLINEset_diff	include/espresso.h	168;"	d
+INLINEset_diff	include/espresso.h	195;"	d
+INLINEset_fill	include/espresso.h	165;"	d
+INLINEset_fill	include/espresso.h	186;"	d
+INLINEset_merge	include/espresso.h	172;"	d
+INLINEset_merge	include/espresso.h	212;"	d
+INLINEset_ndiff	include/espresso.h	169;"	d
+INLINEset_ndiff	include/espresso.h	198;"	d
+INLINEset_or	include/espresso.h	167;"	d
+INLINEset_or	include/espresso.h	192;"	d
+INLINEset_xnor	include/espresso.h	171;"	d
+INLINEset_xnor	include/espresso.h	203;"	d
+INLINEset_xnor	include/espresso.h	208;"	d
+INLINEset_xor	include/espresso.h	170;"	d
+INLINEset_xor	include/espresso.h	202;"	d
+INLINEset_xor	include/espresso.h	205;"	d
+INLINEsetp_disjoint	include/espresso.h	175;"	d
+INLINEsetp_disjoint	include/espresso.h	218;"	d
+INLINEsetp_equal	include/espresso.h	177;"	d
+INLINEsetp_equal	include/espresso.h	221;"	d
+INLINEsetp_implies	include/espresso.h	173;"	d
+INLINEsetp_implies	include/espresso.h	215;"	d
+INOUT	include/espresso.h	320;"	d
+INT_MAX	include/port.h	199;"	d
+IRRED	include/espresso.h	342;"	d
+IRRED1	include/espresso.h	351;"	d
+IRRED_TIME	include/espresso.h	363;"	d
+Ignore_Col_Inputs	sym_greedy.c	/^Ignore_Col_Inputs(pcover WSS, pset set)$/;"	f	signature:(pcover WSS, pset set)
+Ignore_Inputs	sym_greedy.c	/^Ignore_Inputs(pcover WSS, pset set)$/;"	f	signature:(pcover WSS, pset set)
+Ignore_Row_Inputs	sym_greedy.c	/^Ignore_Row_Inputs(pcover WSS, pset set)$/;"	f	signature:(pcover WSS, pset set)
+In_Group	sym_heuristic.c	/^static pset In_Group;$/;"	v	file:
+Index	new.c	/^static unsigned   Index;$/;"	v	file:
+Init_SPM	khwang/khwang_general.c	/^pcover Init_SPM()$/;"	f
+Init_SPM	khwang_symmetry.c	/^pcover Init_SPM()$/;"	f
+Init_SPM	spm.h	/^pcover Init_SPM();$/;"	p	signature:()
+Initial_Group_Info	spm_util.c	/^void Initial_Group_Info(pset set, unsigned leader_val, int nn)$/;"	f	signature:(pset set, unsigned leader_val, int nn)
+Initial_Partition	sym_heuristic.c	/^Initial_Partition(pcover P)$/;"	f	signature:(pcover P)
+Input_Sort	sym_greedy.c	/^Input_Sort(pin_weight I, int num, int op)$/;"	f	signature:(pin_weight I, int num, int op)
+Input_Sort_Dec	sym_greedy.c	/^Input_Sort_Dec(const void *p, const void *q)$/;"	f	signature:(const void *p, const void *q)
+Input_Sort_Inc	sym_greedy.c	/^Input_Sort_Inc(const void *p, const void *q)$/;"	f	signature:(const void *p, const void *q)
+Intercount	khwang_symmetry.c	/^int Intercount = 0;$/;"	v
+Is_Any_Connect	sym_exact.c	/^Is_Any_Connect(pcover WSS, pcover P)$/;"	f	signature:(pcover WSS, pcover P)
+Is_Group_Connect	sym_exact.c	/^Is_Group_Connect(pcover WSS, pset group, pset inp, int *inp_ind)$/;"	f	signature:(pcover WSS, pset group, pset inp, int *inp_ind)
+Is_Input_Full	sym_greedy.c	/^Is_Input_Full(pset a)$/;"	f	signature:(pset a)
+Is_Redundant	sym_exact.c	/^Is_Redundant(pcover record, pset group_mask, pset input_mask)$/;"	f	signature:(pcover record, pset group_mask, pset input_mask)
+Is_Weak_Edge	sym_heuristic.c	/^Is_Weak_Edge(pset set, int ind, int *x1, int *x2)$/;"	f	signature:(pset set, int ind, int *x1, int *x2)
+KEY_ESPRESSO	include/main.h	/^    KEY_ESPRESSO, KEY_PLA_verify, KEY_check, KEY_contain, KEY_d1merge,$/;"	e	enum:keys
+KEY_MANY_ESPRESSO	include/main.h	/^    KEY_test, KEY_equiv, KEY_union, KEY_verify, KEY_MANY_ESPRESSO,$/;"	e	enum:keys
+KEY_PLA_verify	include/main.h	/^    KEY_ESPRESSO, KEY_PLA_verify, KEY_check, KEY_contain, KEY_d1merge,$/;"	e	enum:keys
+KEY_check	include/main.h	/^    KEY_ESPRESSO, KEY_PLA_verify, KEY_check, KEY_contain, KEY_d1merge,$/;"	e	enum:keys
+KEY_contain	include/main.h	/^    KEY_ESPRESSO, KEY_PLA_verify, KEY_check, KEY_contain, KEY_d1merge,$/;"	e	enum:keys
+KEY_d1merge	include/main.h	/^    KEY_ESPRESSO, KEY_PLA_verify, KEY_check, KEY_contain, KEY_d1merge,$/;"	e	enum:keys
+KEY_d1merge_in	include/main.h	/^    KEY_separate, KEY_xor, KEY_d1merge_in, KEY_fsm, KEY_signature,$/;"	e	enum:keys
+KEY_disjoint	include/main.h	/^    KEY_disjoint, KEY_dsharp, KEY_echo, KEY_essen, KEY_exact, KEY_expand,$/;"	e	enum:keys
+KEY_dsharp	include/main.h	/^    KEY_disjoint, KEY_dsharp, KEY_echo, KEY_essen, KEY_exact, KEY_expand,$/;"	e	enum:keys
+KEY_echo	include/main.h	/^    KEY_disjoint, KEY_dsharp, KEY_echo, KEY_essen, KEY_exact, KEY_expand,$/;"	e	enum:keys
+KEY_equiv	include/main.h	/^    KEY_test, KEY_equiv, KEY_union, KEY_verify, KEY_MANY_ESPRESSO,$/;"	e	enum:keys
+KEY_essen	include/main.h	/^    KEY_disjoint, KEY_dsharp, KEY_echo, KEY_essen, KEY_exact, KEY_expand,$/;"	e	enum:keys
+KEY_exact	include/main.h	/^    KEY_disjoint, KEY_dsharp, KEY_echo, KEY_essen, KEY_exact, KEY_expand,$/;"	e	enum:keys
+KEY_expand	include/main.h	/^    KEY_disjoint, KEY_dsharp, KEY_echo, KEY_essen, KEY_exact, KEY_expand,$/;"	e	enum:keys
+KEY_fsm	include/main.h	/^    KEY_separate, KEY_xor, KEY_d1merge_in, KEY_fsm, KEY_signature,$/;"	e	enum:keys
+KEY_gasp	include/main.h	/^    KEY_gasp, KEY_intersect, KEY_irred, KEY_lexsort, KEY_make_sparse,$/;"	e	enum:keys
+KEY_intersect	include/main.h	/^    KEY_gasp, KEY_intersect, KEY_irred, KEY_lexsort, KEY_make_sparse,$/;"	e	enum:keys
+KEY_irred	include/main.h	/^    KEY_gasp, KEY_intersect, KEY_irred, KEY_lexsort, KEY_make_sparse,$/;"	e	enum:keys
+KEY_lexsort	include/main.h	/^    KEY_gasp, KEY_intersect, KEY_irred, KEY_lexsort, KEY_make_sparse,$/;"	e	enum:keys
+KEY_make_sparse	include/main.h	/^    KEY_gasp, KEY_intersect, KEY_irred, KEY_lexsort, KEY_make_sparse,$/;"	e	enum:keys
+KEY_map	include/main.h	/^    KEY_map, KEY_mapdc, KEY_minterms, KEY_opo, KEY_opoall,$/;"	e	enum:keys
+KEY_mapdc	include/main.h	/^    KEY_map, KEY_mapdc, KEY_minterms, KEY_opo, KEY_opoall,$/;"	e	enum:keys
+KEY_minterms	include/main.h	/^    KEY_map, KEY_mapdc, KEY_minterms, KEY_opo, KEY_opoall,$/;"	e	enum:keys
+KEY_opo	include/main.h	/^    KEY_map, KEY_mapdc, KEY_minterms, KEY_opo, KEY_opoall,$/;"	e	enum:keys
+KEY_opoall	include/main.h	/^    KEY_map, KEY_mapdc, KEY_minterms, KEY_opo, KEY_opoall,$/;"	e	enum:keys
+KEY_pair	include/main.h	/^    KEY_pair, KEY_pairall, KEY_primes, KEY_qm, KEY_reduce, KEY_sharp,$/;"	e	enum:keys
+KEY_pairall	include/main.h	/^    KEY_pair, KEY_pairall, KEY_primes, KEY_qm, KEY_reduce, KEY_sharp,$/;"	e	enum:keys
+KEY_primes	include/main.h	/^    KEY_pair, KEY_pairall, KEY_primes, KEY_qm, KEY_reduce, KEY_sharp,$/;"	e	enum:keys
+KEY_qm	include/main.h	/^    KEY_pair, KEY_pairall, KEY_primes, KEY_qm, KEY_reduce, KEY_sharp,$/;"	e	enum:keys
+KEY_reduce	include/main.h	/^    KEY_pair, KEY_pairall, KEY_primes, KEY_qm, KEY_reduce, KEY_sharp,$/;"	e	enum:keys
+KEY_separate	include/main.h	/^    KEY_separate, KEY_xor, KEY_d1merge_in, KEY_fsm, KEY_signature,$/;"	e	enum:keys
+KEY_sharp	include/main.h	/^    KEY_pair, KEY_pairall, KEY_primes, KEY_qm, KEY_reduce, KEY_sharp,$/;"	e	enum:keys
+KEY_signature	include/main.h	/^    KEY_separate, KEY_xor, KEY_d1merge_in, KEY_fsm, KEY_signature,$/;"	e	enum:keys
+KEY_simplify	include/main.h	/^    KEY_simplify, KEY_so, KEY_so_both, KEY_stats, KEY_super_gasp, KEY_taut,$/;"	e	enum:keys
+KEY_so	include/main.h	/^    KEY_simplify, KEY_so, KEY_so_both, KEY_stats, KEY_super_gasp, KEY_taut,$/;"	e	enum:keys
+KEY_so_both	include/main.h	/^    KEY_simplify, KEY_so, KEY_so_both, KEY_stats, KEY_super_gasp, KEY_taut,$/;"	e	enum:keys
+KEY_stats	include/main.h	/^    KEY_simplify, KEY_so, KEY_so_both, KEY_stats, KEY_super_gasp, KEY_taut,$/;"	e	enum:keys
+KEY_super_gasp	include/main.h	/^    KEY_simplify, KEY_so, KEY_so_both, KEY_stats, KEY_super_gasp, KEY_taut,$/;"	e	enum:keys
+KEY_taut	include/main.h	/^    KEY_simplify, KEY_so, KEY_so_both, KEY_stats, KEY_super_gasp, KEY_taut,$/;"	e	enum:keys
+KEY_test	include/main.h	/^    KEY_test, KEY_equiv, KEY_union, KEY_verify, KEY_MANY_ESPRESSO,$/;"	e	enum:keys
+KEY_union	include/main.h	/^    KEY_test, KEY_equiv, KEY_union, KEY_verify, KEY_MANY_ESPRESSO,$/;"	e	enum:keys
+KEY_unknown	include/main.h	/^    KEY_unknown$/;"	e	enum:keys
+KEY_verify	include/main.h	/^    KEY_test, KEY_equiv, KEY_union, KEY_verify, KEY_MANY_ESPRESSO,$/;"	e	enum:keys
+KEY_xor	include/main.h	/^    KEY_separate, KEY_xor, KEY_d1merge_in, KEY_fsm, KEY_signature,$/;"	e	enum:keys
+KISS_type	include/espresso.h	328;"	d
+LACK_SYS5	include/port.h	66;"	d
+LIBRARY	makefile	/^LIBRARY = .\/lib\/esp.a .\/lib\/util.a$/;"	m
+LOGBPI	include/espresso.h	54;"	d
+LOGBPI	include/espresso.h	56;"	d
+LONG_MAX	include/port.h	200;"	d
+LOOP	include/espresso.h	91;"	d
+LOOPCOPY	include/espresso.h	94;"	d
+LOOPCOPY	include/espresso.h	98;"	d
+LOOPINIT	include/espresso.h	104;"	d
+Leader	spm.h	/^    int     *Leader;   \/* the first variable index, in each group *\/$/;"	m	struct:part_manager	access:public
+Low_Weight_Compare	new.c	/^Low_Weight_Compare(const void *p, const void *q)$/;"	f	signature:(const void *p, const void *q)
+Low_Weight_Compare	spm-old.h	/^extern int Low_Weight_Compare(const void *, const void *);$/;"	p	signature:(const void *, const void *)
+Low_Weight_Compare	spm.h	/^extern int Low_Weight_Compare(const void *, const void *);$/;"	p	signature:(const void *, const void *)
+MACHDEP_INCLUDED	include/port.h	12;"	d
+MAX	include/utility.h	42;"	d
+MAYBE	include/espresso.h	243;"	d
+MIN	include/utility.h	45;"	d
+MINCOV	include/espresso.h	348;"	d
+MINCOV1	include/espresso.h	349;"	d
+MINCOV_TIME	include/espresso.h	369;"	d
+MV_REDUCE_TIME	include/espresso.h	370;"	d
+Make_Group_Strongly_Symmetry	spm_util.c	/^void Make_Group_Strongly_Symmetry(pcover *F, pcover *R, pcover *TF, pcover *TR, pset group, int place)$/;"	f	signature:(pcover *F, pcover *R, pcover *TF, pcover *TR, pset group, int place)
+Make_Strongly_Sym	spm_util.c	/^void Make_Strongly_Sym(pcover *F, pcover *R, pcover *TF, pcover *TR, int s1, int s2, bool flag)$/;"	f	signature:(pcover *F, pcover *R, pcover *TF, pcover *TR, int s1, int s2, bool flag)
+Max_Symmetries_Of_Set	sym_greedy.c	/^Max_Symmetries_Of_Set(pcover F, pcover R, pcover *bestF, pcover *bestR, pcover WSS, pset set, pset one_input)$/;"	f	signature:(pcover F, pcover R, pcover *bestF, pcover *bestR, pcover WSS, pset set, pset one_input)
+Max_Symmetries_Of_Set_Step	sym_greedy.c	/^Max_Symmetries_Of_Set_Step(pcover F, pcover R, pcover *bestF, pcover *bestR, pcover WSS, pset set, pset record, pset one_input, pset *current_best, int *current_cost)$/;"	f	signature:(pcover F, pcover R, pcover *bestF, pcover *bestR, pcover WSS, pset set, pset record, pset one_input, pset *current_best, int *current_cost)
+Maximal_Independent_Set_Size	sym_greedy.c	/^Maximal_Independent_Set_Size(pcover T, pset test)$/;"	f	signature:(pcover T, pset test)
+Maximal_Symmetries	spm.h	/^extern pcover Maximal_Symmetries(pcover *F, pcover *R, pcover *D, int op);$/;"	p	signature:(pcover *F, pcover *R, pcover *D, int op)
+Maximal_Symmetries	sym_heuristic.c	/^Maximal_Symmetries(pcover *F, pcover *R, pcover *D, int op)$/;"	f	signature:(pcover *F, pcover *R, pcover *D, int op)
+Maximum_Cost	sym_heuristic.c	/^Maximum_Cost(pcover F, pcover R, pcover WSS, pcover P, int *x, int *y, int op)$/;"	f	signature:(pcover F, pcover R, pcover WSS, pcover P, int *x, int *y, int op)
+Maximum_Cost2	sym_heuristic.c	/^Maximum_Cost2(pcover F, pcover R, pcover WSS, pcover P, int *x, int *y)$/;"	f	signature:(pcover F, pcover R, pcover WSS, pcover P, int *x, int *y)
+Minimum_Cost	sym_heuristic.c	/^Minimum_Cost(pcover F, pcover R, pcover WSS, pcover P, int *x, int *y, int op)$/;"	f	signature:(pcover F, pcover R, pcover WSS, pcover P, int *x, int *y, int op)
+Modified_Partition	sym_heuristic.c	/^Modified_Partition(pcover P, int x, int y, bool PN)$/;"	f	signature:(pcover P, int x, int y, bool PN)
+Modified_SPM	khwang/khwang_general.c	/^pcover Modified_SPM(pcover S, pcover T, pcover WSS)$/;"	f	signature:(pcover S, pcover T, pcover WSS)
+Modified_SPM	khwang_symmetry.c	/^pcover Modified_SPM(pcover S, pcover T, pcover WSS)$/;"	f	signature:(pcover S, pcover T, pcover WSS)
+Modified_SPM	spm.h	/^pcover Modified_SPM(pcover S, pcover T, pcover WSS);$/;"	p	signature:(pcover S, pcover T, pcover WSS)
+Modified_WSS1	sym_greedy.c	/^Modified_WSS1(pcover *F, pcover *R, pset set, int x)$/;"	f	signature:(pcover *F, pcover *R, pset set, int x)
+Modify_SPM	new.c	/^Modify_SPM(pcover F, pset set)$/;"	f	signature:(pcover F, pset set)
+Modify_Set_by_Set_SPM	spm-old.h	/^extern pset Modify_Set_by_Set_SPM(pset, pset);$/;"	p	signature:(pset, pset)
+Modify_Set_by_Set_SPM	spm.h	/^extern pset Modify_Set_by_Set_SPM(pset, pset);$/;"	p	signature:(pset, pset)
+My_Best_Sort	khwang/khwang_general.c	/^void My_Best_Sort(pcover F, pcover R)$/;"	f	signature:(pcover F, pcover R)
+My_Best_Sort	spm-old.h	/^extern void My_Best_Sort(pcover, pcover);$/;"	p	signature:(pcover, pcover)
+N1	new.c	/^static unsigned   N1;$/;"	v	file:
+NELEM	include/espresso.h	103;"	d
+NIL	include/utility.h	10;"	d
+NIL_FN	include/utility.h	38;"	d
+NIN	spm.h	/^unsigned NIN, NOU;$/;"	v
+NONESSEN	include/espresso.h	115;"	d
+NOU	spm-old.h	/^unsigned NOU;$/;"	v
+NOU	spm.h	/^unsigned NIN, NOU;$/;"	v
+NO_INLINE	include/espresso.h	13;"	d
+NO_INLINE	include/espresso.h	21;"	d
+NULL	include/port.h	84;"	d
+NUMINPUTS	include/espresso.h	382;"	d
+NUMOUTPUTS	include/espresso.h	383;"	d
+Neg_Cube	main.c	/^const unsigned int Neg_Cube = 0xaaaaaaaa;  \/\/ 1010....1010$/;"	v
+Negative	khwang_symmetry.c	/^pset Positive, Negative;$/;"	v
+Negative_Table	spm_util.c	/^static unsigned Negative_Table[4][4] = { 0, 0, 0, 0,  \/\/ NA  NA  NA  NA$/;"	v	file:
+No_Change_Count	khwang_symmetry.c	/^int No_Change_Count = 0;$/;"	v
+Num_Assign_DC	spm_util.c	/^int Num_Assign_DC(pcover F, pcover R, pcover WSS, int s1, int s2, bool flag)$/;"	f	signature:(pcover F, pcover R, pcover WSS, int s1, int s2, bool flag)
+Num_Assign_DC_Step	spm_util.c	/^pcover Num_Assign_DC_Step(pcover F, pcover R, int s1, int s2, bool flag)$/;"	f	signature:(pcover F, pcover R, int s1, int s2, bool flag)
+OBJ	makefile	/^OBJ	= $(SRC:.c=.o)$/;"	m
+OCTTOOLS_COPYRIGHT_H	include/copyright.h	2;"	d
+OMP_TARGET	makefile	/^OMP_TARGET = omp-spm$/;"	m
+ONE	include/espresso.h	405;"	d
+ONSET_TIME	include/espresso.h	360;"	d
+OPENMP	makefile	/^OPENMP = $/;"	m
+OUT	include/espresso.h	319;"	d
+OUTLABEL	include/espresso.h	389;"	d
+Output_Weight	spm.h	/^extern int Output_Weight(pset p, int nin);$/;"	p	signature:(pset p, int nin)
+Output_Weight	spm_util.c	/^int Output_Weight(pset p, int nin)$/;"	f	signature:(pset p, int nin)
+PLA_labels	include/espresso.h	/^extern void PLA_labels(pPLA PLA);$/;"	p	signature:(pPLA PLA)
+PLA_permute	include/espresso.h	/^extern void PLA_permute();$/;"	p	signature:()
+PLA_summary	include/espresso.h	/^extern void PLA_summary(pPLA PLA);$/;"	p	signature:(pPLA PLA)
+PLA_t	include/espresso.h	/^} PLA_t, *pPLA;$/;"	t	typeref:struct:__anon1
+PLA_verify	include/espresso.h	/^extern bool PLA_verify();$/;"	p	signature:()
+PLEASURE_type	include/espresso.h	326;"	d
+PORTAR	include/port.h	43;"	d
+PORT_H	include/port.h	2;"	d
+POSITIVE_PHASE	include/espresso.h	385;"	d
+PRIME	include/espresso.h	114;"	d
+PRIMES_TIME	include/espresso.h	368;"	d
+PUTINPUT	include/espresso.h	396;"	d
+PUTLOOP	include/espresso.h	92;"	d
+PUTOUTPUT	include/espresso.h	399;"	d
+PUTSIZE	include/espresso.h	100;"	d
+PUTSIZE	include/espresso.h	96;"	d
+Pair_Count	khwang_symmetry.c	/^int Pair_Count = 0;$/;"	v
+Part	spm.h	/^    pcover  Part;       \/* Part->count == num *\/$/;"	m	struct:part_manager	access:public
+Part_Manager_Type	spm.h	/^} Part_Manager_Type, *pPart_Manager;$/;"	t	typeref:struct:part_manager
+Pcount	khwang_symmetry.c	/^int Pcount = 0;$/;"	v
+Pos_Cube	main.c	/^const unsigned int Pos_Cube = 0x55555555;  \/\/ 0101....0101$/;"	v
+Positive	khwang_symmetry.c	/^pset Positive, Negative;$/;"	v
+Positive_Table	spm_util.c	/^static unsigned Positive_Table[4][4] = { 0, 0, 0, 0,  \/\/ NA  NA  NA  NA$/;"	v	file:
+Print_SPM	khwang_symmetry.c	/^void Print_SPM(pcover, int);$/;"	p	file:	signature:(pcover, int)
+Print_SPM	khwang_symmetry.c	/^void Print_SPM(register pcover SPM, int var_count)$/;"	f	signature:(register pcover SPM, int var_count)
+Print_SPM_Element	khwang_symmetry.c	/^void Print_SPM_Element(pcube, int, int);$/;"	p	file:	signature:(pcube, int, int)
+Print_SPM_Element	khwang_symmetry.c	/^void Print_SPM_Element(register pcube p, register int var_count, int part_size)$/;"	f	signature:(register pcube p, register int var_count, int part_size)
+Process_Negative	khwang/khwang_symmetry.c	/^void Process_Negative(pset set)$/;"	f	signature:(pset set)
+Process_Negative	khwang_symmetry.c	/^void Process_Negative(pset set)$/;"	f	signature:(pset set)
+Process_Negative	spm.h	/^void Process_Negative(pset set);$/;"	p	signature:(pset set)
+QuickFlag	main.c	/^bool QuickFlag;$/;"	v
+QuickFly_Remove_ASP	khwang/khwang_symmetry.c	/^void QuickFly_Remove_ASP(pcover F, pset a, pset b)$/;"	f	signature:(pcover F, pset a, pset b)
+QuickFly_Remove_ASP	khwang_symmetry.c	/^void QuickFly_Remove_ASP(pcover SPM, pset on_cube, pset off_cube)$/;"	f	signature:(pcover SPM, pset on_cube, pset off_cube)
+QuickFly_Remove_ASP	spm.h	/^void QuickFly_Remove_ASP(pcover F, pset a, pset b);$/;"	p	signature:(pcover F, pset a, pset b)
+QuickFly_Remove_ASP_Step	khwang/khwang_symmetry.c	/^void QuickFly_Remove_ASP_Step(pcover F, pset a, pset p, int x)$/;"	f	signature:(pcover F, pset a, pset p, int x)
+QuickFly_Remove_ASP_Step	khwang_symmetry.c	/^void QuickFly_Remove_ASP_Step(pcover SPM, pset on, pset xor, int dc_index)$/;"	f	signature:(pcover SPM, pset on, pset xor, int dc_index)
+QuickFly_Remove_ASP_Step	spm.h	/^void QuickFly_Remove_ASP_Step(pcover F, pset a, pset p, int x);$/;"	p	signature:(pcover F, pset a, pset p, int x)
+QuickFly_Remove_Skew_ASP	khwang/khwang_skew.c	/^void QuickFly_Remove_Skew_ASP(pcover F, pset a, pset b)$/;"	f	signature:(pcover F, pset a, pset b)
+QuickFly_Remove_Skew_ASP	spm.h	/^void QuickFly_Remove_Skew_ASP(pcover F, pset a, pset b);$/;"	p	signature:(pcover F, pset a, pset b)
+QuickFly_Remove_Skew_ASP_Step	khwang/khwang_skew.c	/^void QuickFly_Remove_Skew_ASP_Step(pcover F, pset a, pset p, pset q, int n)$/;"	f	signature:(pcover F, pset a, pset p, pset q, int n)
+QuickFly_Remove_Skew_ASP_Step	spm.h	/^void QuickFly_Remove_Skew_ASP_Step(pcover F, pset a, pset p, pset q, int n);$/;"	p	signature:(pcover F, pset a, pset p, pset q, int n)
+Quick_Make_Strongly_Sym	spm_util.c	/^void Quick_Make_Strongly_Sym(pcover *TF, pcover *TR, pset group, int leader)$/;"	f	signature:(pcover *TF, pcover *TR, pset group, int leader)
+Quick_Make_Strongly_Sym_Step	spm_util.c	/^pcover Quick_Make_Strongly_Sym_Step(pcover T, int leader_pos, unsigned leader_val, int nn)$/;"	f	signature:(pcover T, int leader_pos, unsigned leader_val, int nn)
+R	include/espresso.h	/^    pcover F, D, R;		\/* on-set, off-set and dc-set *\/$/;"	m	struct:__anon1	access:public
+RAISE_IN_TIME	include/espresso.h	371;"	d
+READ_TIME	include/espresso.h	358;"	d
+REALLOC	include/utility.h	13;"	d
+REALLOC	include/utility.h	54;"	d
+REALLOC	include/utility.h	56;"	d
+REDUCE	include/espresso.h	343;"	d
+REDUCE1	include/espresso.h	344;"	d
+REDUCE_TIME	include/espresso.h	364;"	d
+REDUND	include/espresso.h	117;"	d
+RELESSEN	include/espresso.h	119;"	d
+RESET	include/espresso.h	110;"	d
+R_type	include/espresso.h	325;"	d
+Record_One_Input	sym_greedy.c	/^Record_One_Input(pcover P)$/;"	f	signature:(pcover P)
+Reduce_Cover	sym_greedy.c	/^Reduce_Cover(pcover T, pset set)$/;"	f	signature:(pcover T, pset set)
+Reduce_SPM	new.c	/^Reduce_SPM(pcover SPM, pcover F)$/;"	f	signature:(pcover SPM, pcover F)
+Reduce_SPM	spm.h	/^extern void Reduce_SPM(pcover SPM, pcover F);$/;"	p	signature:(pcover SPM, pcover F)
+Reduce_SPM_Step	new.c	/^Reduce_SPM_Step(pcover F, pset *pOut)$/;"	f	signature:(pcover F, pset *pOut)
+Reduction	spm_util.c	/^pcover Reduction(pcover T)$/;"	f	signature:(pcover T)
+Related_Inputs	sym_greedy.c	/^Related_Inputs(pcover WSS, pset set)$/;"	f	signature:(pcover WSS, pset set)
+Remove_1ASP_Step	khwang/khwang_unused.c	/^Remove_1ASP_Step(pcover F, pset a, pset p, int x)$/;"	f	signature:(pcover F, pset a, pset p, int x)
+Remove_2ASP_Step	khwang/khwang_unused.c	/^Remove_2ASP_Step(pcover F, pset r, int x)$/;"	f	signature:(pcover F, pset r, int x)
+Remove_ASP_in_SPM	khwang/khwang_general.c	/^void Remove_ASP_in_SPM(pcover F, int x, int y, unsigned flag)$/;"	f	signature:(pcover F, int x, int y, unsigned flag)
+Remove_ASP_in_SPM	khwang_symmetry.c	/^void Remove_ASP_in_SPM(pcover SPM, int x, int y, unsigned flag)$/;"	f	signature:(pcover SPM, int x, int y, unsigned flag)
+Remove_ASP_in_SPM	spm.h	/^void Remove_ASP_in_SPM(pcover F, int x, int y, unsigned flag);$/;"	p	signature:(pcover F, int x, int y, unsigned flag)
+Remove_ASP_in_Skew_SPM	khwang/khwang_skew.c	/^void Remove_ASP_in_Skew_SPM(pcover F, pset set, int x, int y, unsigned flag)$/;"	f	signature:(pcover F, pset set, int x, int y, unsigned flag)
+Remove_ASP_in_Skew_SPM	spm.h	/^void Remove_ASP_in_Skew_SPM(pcover F, pset set, int x, int y, unsigned flag);$/;"	p	signature:(pcover F, pset set, int x, int y, unsigned flag)
+Remove_Anti_SVS	khwang/khwang_svs.c	/^void Remove_Anti_SVS(pcover F, pset a, pset b)$/;"	f	signature:(pcover F, pset a, pset b)
+Remove_Anti_SVS	spm.h	/^void Remove_Anti_SVS(pcover F, pset a, pset b);$/;"	p	signature:(pcover F, pset a, pset b)
+Remove_Anti_SVS_Step	khwang/khwang_svs.c	/^void Remove_Anti_SVS_Step(pcover F, pset a, int x)$/;"	f	signature:(pcover F, pset a, int x)
+Remove_Anti_SVS_Step	spm.h	/^void Remove_Anti_SVS_Step(pcover F, pset a, int x);$/;"	p	signature:(pcover F, pset a, int x)
+Remove_Anti_Symmetry_Pair	khwang/khwang_unused.c	/^Remove_Anti_Symmetry_Pair(pcover F, pset a, pset b)$/;"	f	signature:(pcover F, pset a, pset b)
+Remove_Onset_New	spm.h	/^extern pcover Remove_Onset_New(pcover F, pcover D, double ratio);$/;"	p	signature:(pcover F, pcover D, double ratio)
+Remove_Onset_New	spm_util.c	/^pcover Remove_Onset_New(pcover F, pcover D, double ratio)$/;"	f	signature:(pcover F, pcover D, double ratio)
+Remove_Onset_Num	spm_util.c	/^pcover Remove_Onset_Num(pcover F, pcover D, int num)$/;"	f	signature:(pcover F, pcover D, int num)
+Remove_Onset_Random	spm_util.c	/^pcover Remove_Onset_Random(pcover F, pcover D, double ratio)$/;"	f	signature:(pcover F, pcover D, double ratio)
+Reset_PartManager	spm_util.c	/^void Reset_PartManager(pPart_Manager pP)$/;"	f	signature:(pPart_Manager pP)
+Revise_WSS	khwang/khwang_unused.c	/^Revise_WSS(pcover WSS, pcover F, pcover R, pcover TF, pcover TR)$/;"	f	signature:(pcover WSS, pcover F, pcover R, pcover TF, pcover TR)
+Revised	new.c	/^Revised(pset set)$/;"	f	signature:(pset set)
+SET	include/espresso.h	109;"	d
+SET_SIZE	include/espresso.h	79;"	d
+SET_SIZE	include/espresso.h	81;"	d
+SHARP	include/espresso.h	350;"	d
+SHOWSPM	sym_heuristic.c	4;"	d	file:
+SHRT_MAX	include/port.h	198;"	d
+SIGMA_TIME	include/espresso.h	377;"	d
+SIGNAL_FN	include/port.h	70;"	d
+SIGNAL_FN	include/port.h	73;"	d
+SIZE	include/espresso.h	95;"	d
+SIZE	include/espresso.h	99;"	d
+SIZET	include/port.h	98;"	d
+SPARSE	include/espresso.h	345;"	d
+SPARSE_H	include/sparse.h	2;"	d
+SPM2	spm-old.h	/^pcover SPM2;$/;"	v
+SPM2	spm.h	/^pcover SPM2;$/;"	v
+SPM_Count	spm.h	/^extern void SPM_Count(pcover, int *, int *);$/;"	p	signature:(pcover, int *, int *)
+SPM_Count	spm_util.c	/^void SPM_Count(pcover F, int *pos, int *neg)$/;"	f	signature:(pcover F, int *pos, int *neg)
+SPM_Set_Weight	new.c	/^SPM_Set_Weight(pset set)$/;"	f	signature:(pset set)
+SPM_Upper_Count	spm.h	/^extern void SPM_Upper_Count(pcover F, int *pos, int *neg);$/;"	p	signature:(pcover F, int *pos, int *neg)
+SPM_Upper_Count	spm_util.c	/^void SPM_Upper_Count(pcover F, int *pos, int *neg)$/;"	f	signature:(pcover F, int *pos, int *neg)
+SRC	makefile	/^SRC = khwang_symmetry.c spm_util.c symm_util.c sym_heuristic.c sym_greedy.c sym_exact.c main.c new.c sym_naive.c sym_util.c$/;"	m
+ST_BAD_GEN	include/st.h	13;"	d
+ST_BAD_RET	include/st.h	12;"	d
+ST_CONTINUE	include/st.h	/^enum st_retval {ST_CONTINUE, ST_STOP, ST_DELETE};$/;"	e	enum:st_retval
+ST_DEFAULT_GROW_FACTOR	include/st.h	106;"	d
+ST_DEFAULT_INIT_TABLE_SIZE	include/st.h	105;"	d
+ST_DEFAULT_MAX_DENSITY	include/st.h	104;"	d
+ST_DEFAULT_REORDER_FLAG	include/st.h	107;"	d
+ST_DELETE	include/st.h	/^enum st_retval {ST_CONTINUE, ST_STOP, ST_DELETE};$/;"	e	enum:st_retval
+ST_INCLUDED	include/st.h	4;"	d
+ST_NO_MEM	include/st.h	11;"	d
+ST_STOP	include/st.h	/^enum st_retval {ST_CONTINUE, ST_STOP, ST_DELETE};$/;"	e	enum:st_retval
+SVSM_Print	spm.h	/^extern void SVSM_Print(pcover F);$/;"	p	signature:(pcover F)
+SVSM_Print	spm_util.c	/^void SVSM_Print(pcover F)$/;"	f	signature:(pcover F)
+SYMBOLIC_CONSTRAINTS_type	include/espresso.h	330;"	d
+S_EXECUTE	include/espresso.h	416;"	d
+Satisfied	new.c	/^Satisfied(pset a, pset b, int *m, int *n, int *k)$/;"	f	signature:(pset a, pset b, int *m, int *n, int *k)
+Second_X	khwang/khwang_general.c	/^int Second_X(pset set, int *first)$/;"	f	signature:(pset set, int *first)
+Second_X	khwang_symmetry.c	/^int Second_X(pset set, int *first)$/;"	f	signature:(pset set, int *first)
+Second_X	spm.h	/^int Second_X(pset set, int *first);$/;"	p	signature:(pset set, int *first)
+Set_Input_Cnt	spm_util.c	/^int Set_Input_Cnt(pset p, int nin)$/;"	f	signature:(pset p, int nin)
+Set_Output_Cnt	spm_util.c	/^int Set_Output_Cnt(pset p)$/;"	f	signature:(pset p)
+Set_SPM	khwang_symmetry.c	/^static pset Set_SPM;$/;"	v	file:
+Setup_PartManager	spm_util.c	/^pPart_Manager Setup_PartManager(pcover WSS, pcover SSS)$/;"	f	signature:(pcover WSS, pcover SSS)
+Sf_Col_Clear	sym_greedy.c	/^Sf_Col_Clear(pcover T, int col)$/;"	f	signature:(pcover T, int col)
+Show_SPM	new.c	/^int Show_SPM(pcover F)$/;"	f	signature:(pcover F)
+Show_SPM	spm.h	/^extern int Show_SPM(pcover F);$/;"	p	signature:(pcover F)
+Size	spm.h	/^    int     *Size;    \/* record the size (number of variables in each group *\/$/;"	m	struct:part_manager	access:public
+Skew_Cofactor_Equal	sym_naive.c	/^Skew_Cofactor_Equal(pcube *clist, pcube set1, pcube set2)$/;"	f	signature:(pcube *clist, pcube set1, pcube set2)
+Skew_Ds	spm.h	/^typedef struct Skew_Ds$/;"	s
+Skew_Ds::index	spm.h	/^    unsigned int  index;$/;"	m	struct:Skew_Ds	access:public
+Skew_Ds::val	spm.h	/^    unsigned int  val;$/;"	m	struct:Skew_Ds	access:public
+Skew_Equivalent_Class	spm.h	/^extern void Skew_Equivalent_Class(pcover F);$/;"	p	signature:(pcover F)
+Skew_Equivalent_Class	spm_util.c	/^void Skew_Equivalent_Class(pcover F)$/;"	f	signature:(pcover F)
+Skew_t	spm.h	/^} *pSkew, Skew_t;$/;"	t	typeref:struct:Skew_Ds
+Sort_By_Cube_Weight	new.c	/^Sort_By_Cube_Weight(pcover F, unsigned *cost, bool flag)$/;"	f	signature:(pcover F, unsigned *cost, bool flag)
+Sort_Dec	spm-old.h	/^extern int Sort_Dec(const void *, const void *);$/;"	p	signature:(const void *, const void *)
+Sort_Dec	spm.h	/^extern int Sort_Dec(const void *, const void *);$/;"	p	signature:(const void *, const void *)
+Sort_Dec	spm_util.c	/^int Sort_Dec(const void *p, const void *q)$/;"	f	signature:(const void *p, const void *q)
+Sort_Inc	spm-old.h	/^extern int Sort_Inc(const void *, const void *);$/;"	p	signature:(const void *, const void *)
+Sort_Inc	spm.h	/^extern int Sort_Inc(const void *, const void *);$/;"	p	signature:(const void *, const void *)
+Sort_Inc	spm_util.c	/^int Sort_Inc(const void *p, const void *q)$/;"	f	signature:(const void *p, const void *q)
+SpeedUp_Generate_SPM	khwang/khwang.c	/^SpeedUp_Generate_SPM(pcover F, pcover R, bool flag)$/;"	f	signature:(pcover F, pcover R, bool flag)
+SpeedUp_Generate_SPM	spm-old.h	/^extern pcover SpeedUp_Generate_SPM(pcover, pcover, bool);$/;"	p	signature:(pcover, pcover, bool)
+SpmUnateCube	spm.h	/^pset    SpmUnateCube;$/;"	v
+Spm_Manager_Type	spm.h	/^} Spm_Manager_Type, *pSpm_Manager;$/;"	t	typeref:struct:spm_manager
+St_k	new.c	/^static unsigned   St_m, St_n, St_k;$/;"	v	file:
+St_m	new.c	/^static unsigned   St_m, St_n, St_k;$/;"	v	file:
+St_n	new.c	/^static unsigned   St_m, St_n, St_k;$/;"	v	file:
+Static_Count	khwang_symmetry.c	/^int Static_Count = 0;$/;"	v
+Strong_Sym_Info	spm_util.c	/^void Strong_Sym_Info(pcover F, pcover R, pcover D)$/;"	f	signature:(pcover F, pcover R, pcover D)
+Sub_Matrix_Count	sym_greedy.c	/^Sub_Matrix_Count(pcover WSS, pset q)$/;"	f	signature:(pcover WSS, pset q)
+Symmetries_Count	sym_exact.c	/^Symmetries_Count(pcover P)$/;"	f	signature:(pcover P)
+TARGET	makefile	/^TARGET = spm$/;"	m
+TAUT	include/espresso.h	346;"	d
+TESTP	include/espresso.h	111;"	d
+TIMEF	sym_heuristic.c	3;"	d	file:
+TIME_COUNT	include/espresso.h	357;"	d
+TRUE	include/espresso.h	242;"	d
+TWO	include/espresso.h	403;"	d
+UCOMP_TIME	include/espresso.h	378;"	d
+UINT_MAX	include/port.h	196;"	d
+ULONG_MAX	include/port.h	197;"	d
+UNSCHAR	include/port.h	93;"	d
+UNSCHAR	include/port.h	95;"	d
+UPRINTF_H	include/uprintf.h	13;"	d
+USHRT_MAX	include/port.h	195;"	d
+UTILITY_H	include/utility.h	2;"	d
+Update_Cube	khwang/khwang_general.c	/^void Update_Cube(pset a, pset b)$/;"	f	signature:(pset a, pset b)
+Update_Cube	spm.h	/^void Update_Cube(pset a, pset b);$/;"	p	signature:(pset a, pset b)
+Update_Partition	sym_exact.c	/^Update_Partition(pcover newP, pcover P, pset x, pset q, int pos_q)$/;"	f	signature:(pcover newP, pcover P, pset x, pset q, int pos_q)
+Update_SPM2	khwang/khwang_general.c	/^void Update_SPM2(pcover A, pcover B)$/;"	f	signature:(pcover A, pcover B)
+Update_SPM2	spm.h	/^void Update_SPM2(pcover A, pcover B);$/;"	p	signature:(pcover A, pcover B)
+Update_SPM_Step	new.c	/^extern void Update_SPM_Step(pcover , pset , unsigned int);$/;"	p	file:	signature:(pcover , pset , unsigned int)
+Update_SPM_Step	new.c	/^void Update_SPM_Step(pcover F, pset a, unsigned int index)$/;"	f	signature:(pcover F, pset a, unsigned int index)
+Update_Set_SPM	khwang/khwang_general.c	/^void Update_Set_SPM(pcover F, int index)$/;"	f	signature:(pcover F, int index)
+Update_Set_SPM	khwang_symmetry.c	/^void Update_Set_SPM(pcover F, int index)$/;"	f	signature:(pcover F, int index)
+Update_Set_SPM	spm.h	/^void Update_Set_SPM(pcover F, int index);$/;"	p	signature:(pcover F, int index)
+VERIFY_TIME	include/espresso.h	372;"	d
+VERSION	include/espresso.h	353;"	d
+VOIDSTAR	include/port.h	102;"	d
+VOIDSTAR	include/port.h	105;"	d
+VOID_HACK	include/port.h	78;"	d
+VOID_HACK	include/port.h	80;"	d
+Var_Phase_Inv	symm_util.c	/^Var_Phase_Inv(pset set)$/;"	f	signature:(pset set)
+Vars	spm_util.c	/^static int *Vars;$/;"	v	file:
+Vars_Exchange	spm_util.c	/^pset Vars_Exchange(pset set, int xp, int yp, unsigned xv, unsigned yv, bool table_flag)$/;"	f	signature:(pset set, int xp, int yp, unsigned xv, unsigned yv, bool table_flag)
+Vars_Num	symm_util.c	/^Vars_Num(pset set)$/;"	f	signature:(pset set)
+Vout	spm-old.h	/^        double   Vout;$/;"	m	struct:weight_pair	access:public
+Vout	spm.h	/^    double   Vout;$/;"	m	struct:weight_pair	access:public
+WHICH_BIT	include/espresso.h	75;"	d
+WHICH_WORD	include/espresso.h	74;"	d
+WRITE_TIME	include/espresso.h	373;"	d
+WSS	spm.h	/^    pcover  WSS;        \/* Weakly Symmetric Set *\/$/;"	m	struct:part_manager	access:public
+WSS_Empty	sym_greedy.c	/^WSS_Empty(pcover WSS)$/;"	f	signature:(pcover WSS)
+Weak_Max_Cost	sym_heuristic.c	/^Weak_Max_Cost(pcover F, pcover R, pcover WSS, int *second)$/;"	f	signature:(pcover F, pcover R, pcover WSS, int *second)
+Weak_Min_Cost	sym_heuristic.c	/^Weak_Min_Cost(pcover F, pcover R, pcover WSS, int *second)$/;"	f	signature:(pcover F, pcover R, pcover WSS, int *second)
+Weight_Compare	spm-old.h	/^extern int Weight_Compare(const void *, const void *);$/;"	p	signature:(const void *, const void *)
+Weight_Compare	spm.h	/^extern int Weight_Compare(const void *, const void *);$/;"	p	signature:(const void *, const void *)
+Weight_Compare	spm_util.c	/^int Weight_Compare(const void *p, const void *q)$/;"	f	signature:(const void *p, const void *q)
+X_Input_Part	new.c	/^X_Input_Part(pset a)$/;"	f	signature:(pset a)
+Xcnt	khwang/khwang_general.c	/^int Xcnt(unsigned a)$/;"	f	signature:(unsigned a)
+Xcnt	khwang_symmetry.c	/^int Xcnt(unsigned a)$/;"	f	signature:(unsigned a)
+Xcnt	spm.h	/^int Xcnt(unsigned a);$/;"	p	signature:(unsigned a)
+Xcnt_Limit	khwang/khwang_general.c	/^int Xcnt_Limit(unsigned a, int m)$/;"	f	signature:(unsigned a, int m)
+Xcnt_Limit	khwang_symmetry.c	/^int Xcnt_Limit(unsigned a, int m)$/;"	f	signature:(unsigned a, int m)
+Xcnt_Limit	spm.h	/^int Xcnt_Limit(unsigned a, int m);$/;"	p	signature:(unsigned a, int m)
+Xcnt_Limit_Modified	new.c	/^Xcnt_Limit_Modified(unsigned int *a, int m)$/;"	f	signature:(unsigned int *a, int m)
+Xcnt_Modified	new.c	/^Xcnt_Modified(unsigned int *a)$/;"	f	signature:(unsigned int *a)
+Xcnt_Set_And	khwang/khwang_general.c	/^int Xcnt_Set_And(pset r, pset a, pset b)$/;"	f	signature:(pset r, pset a, pset b)
+Xcnt_Set_And	khwang_symmetry.c	/^int Xcnt_Set_And(pset r, pset a, pset b)$/;"	f	signature:(pset r, pset a, pset b)
+Xcnt_Set_And	spm.h	/^int Xcnt_Set_And(pset r, pset a, pset b);$/;"	p	signature:(pset r, pset a, pset b)
+Xcnt_Set_And_Modified	new.c	/^Xcnt_Set_And_Modified(pset r, pset a, pset b)$/;"	f	signature:(pset r, pset a, pset b)
+Xcnt_Set_Or	khwang/khwang_general.c	/^int Xcnt_Set_Or(pset r, pset a, pset b)$/;"	f	signature:(pset r, pset a, pset b)
+Xcnt_Set_Or	khwang_symmetry.c	/^int Xcnt_Set_Or(pset r, pset a, pset b)$/;"	f	signature:(pset r, pset a, pset b)
+Xcnt_Set_Or	spm.h	/^int Xcnt_Set_Or(pset r, pset a, pset b);$/;"	p	signature:(pset r, pset a, pset b)
+Xcnt_Set_Or_Modified	new.c	/^Xcnt_Set_Or_Modified(pset r, pset a, pset b)$/;"	f	signature:(pset r, pset a, pset b)
+Xcnt_Set_Xor	khwang/khwang_general.c	/^int Xcnt_Set_Xor(pset r, pset a, pset b)$/;"	f	signature:(pset r, pset a, pset b)
+Xcnt_Set_Xor	khwang_symmetry.c	/^int Xcnt_Set_Xor(pset r, pset a, pset b)$/;"	f	signature:(pset r, pset a, pset b)
+Xcnt_Set_Xor	spm.h	/^int Xcnt_Set_Xor(pset r, pset a, pset b);$/;"	p	signature:(pset r, pset a, pset b)
+Xcnt_Set_Xor_Modified	new.c	/^Xcnt_Set_Xor_Modified(pset r, pset a, pset b, pset mp)$/;"	f	signature:(pset r, pset a, pset b, pset mp)
+ZERO	include/espresso.h	406;"	d
+Zero_Cnt	khwang/khwang_svs.c	/^int Zero_Cnt(unsigned a, int *first)$/;"	f	signature:(unsigned a, int *first)
+Zero_Cnt	spm.h	/^int Zero_Cnt(unsigned a, int *first);$/;"	p	signature:(unsigned a, int *first)
+Zero_Cnt_Limit	khwang/khwang_svs.c	/^int Zero_Cnt_Limit(unsigned a, int *first, int m)$/;"	f	signature:(unsigned a, int *first, int m)
+Zero_Cnt_Limit	spm.h	/^int Zero_Cnt_Limit(unsigned a, int *first, int m);$/;"	p	signature:(unsigned a, int *first, int m)
+Zero_Cnt_Set_And	khwang/khwang_svs.c	/^int Zero_Cnt_Set_And(pset r, pset a, pset b, int *first)$/;"	f	signature:(pset r, pset a, pset b, int *first)
+Zero_Cnt_Set_And	spm.h	/^int Zero_Cnt_Set_And(pset r, pset a, pset b, int *first);$/;"	p	signature:(pset r, pset a, pset b, int *first)
+__DATE__	include/port.h	27;"	d
+__DATE__	include/port.h	29;"	d
+__TIME__	include/port.h	35;"	d
+__TIME__	include/port.h	37;"	d
+__anon1::D	include/espresso.h	/^    pcover F, D, R;		\/* on-set, off-set and dc-set *\/$/;"	m	struct:__anon1	access:public
+__anon1::F	include/espresso.h	/^    pcover F, D, R;		\/* on-set, off-set and dc-set *\/$/;"	m	struct:__anon1	access:public
+__anon1::R	include/espresso.h	/^    pcover F, D, R;		\/* on-set, off-set and dc-set *\/$/;"	m	struct:__anon1	access:public
+__anon1::filename	include/espresso.h	/^    char *filename;             \/* filename *\/$/;"	m	struct:__anon1	access:public
+__anon1::label	include/espresso.h	/^    char **label;		\/* labels for the columns *\/$/;"	m	struct:__anon1	access:public
+__anon1::pair	include/espresso.h	/^    ppair pair;                 \/* how to pair variables *\/$/;"	m	struct:__anon1	access:public
+__anon1::phase	include/espresso.h	/^    pcube phase;                \/* phase to split into on-set and off-set *\/$/;"	m	struct:__anon1	access:public
+__anon1::pla_type	include/espresso.h	/^    int pla_type;               \/* logical PLA format *\/$/;"	m	struct:__anon1	access:public
+__anon1::symbolic	include/espresso.h	/^    symbolic_t *symbolic;	\/* allow binary->symbolic mapping *\/$/;"	m	struct:__anon1	access:public
+__anon1::symbolic_output	include/espresso.h	/^    symbolic_t *symbolic_output;\/* allow symbolic output mapping *\/$/;"	m	struct:__anon1	access:public
+__anon2::key	include/main.h	/^    enum keys key;$/;"	m	struct:__anon2	typeref:enum:__anon2::keys	access:public
+__anon2::name	include/main.h	/^    char *name;$/;"	m	struct:__anon2	access:public
+__anon2::needs_dcset	include/main.h	/^    bool needs_dcset;$/;"	m	struct:__anon2	access:public
+__anon2::needs_offset	include/main.h	/^    bool needs_offset;$/;"	m	struct:__anon2	access:public
+__anon2::num_plas	include/main.h	/^    int num_plas;$/;"	m	struct:__anon2	access:public
+__anon3::name	include/main.h	/^    char *name;$/;"	m	struct:__anon3	access:public
+__anon3::value	include/main.h	/^    int value;$/;"	m	struct:__anon3	access:public
+__anon4::name	include/main.h	/^    char *name;$/;"	m	struct:__anon4	access:public
+__anon4::value	include/main.h	/^    int value;$/;"	m	struct:__anon4	access:public
+__anon4::variable	include/main.h	/^    int *variable;$/;"	m	struct:__anon4	access:public
+_st_generator	include/st.h	/^struct _st_generator {$/;"	s
+_st_generator::entry	include/st.h	/^    st_table_entry *entry;$/;"	m	struct:_st_generator	access:public
+_st_generator::index	include/st.h	/^    int index;$/;"	m	struct:_st_generator	access:public
+_st_generator::table	include/st.h	/^    st_table *table;$/;"	m	struct:_st_generator	access:public
+_st_table	include/st.h	/^struct _st_table {$/;"	s
+_st_table::bins	include/st.h	/^    st_table_entry **bins;$/;"	m	struct:_st_table	access:public
+_st_table::compare	include/st.h	/^    int (*compare)();$/;"	m	struct:_st_table	access:public
+_st_table::grow_factor	include/st.h	/^    double grow_factor;$/;"	m	struct:_st_table	access:public
+_st_table::hash	include/st.h	/^    int (*hash)();$/;"	m	struct:_st_table	access:public
+_st_table::max_density	include/st.h	/^    int max_density;$/;"	m	struct:_st_table	access:public
+_st_table::num_bins	include/st.h	/^    int num_bins;$/;"	m	struct:_st_table	access:public
+_st_table::num_entries	include/st.h	/^    int num_entries;$/;"	m	struct:_st_table	access:public
+_st_table::reorder_flag	include/st.h	/^    int reorder_flag;$/;"	m	struct:_st_table	access:public
+_st_table_entry	include/st.h	/^struct _st_table_entry {$/;"	s
+_st_table_entry::key	include/st.h	/^    char *key;$/;"	m	struct:_st_table_entry	access:public
+_st_table_entry::next	include/st.h	/^    st_table_entry *next;$/;"	m	struct:_st_table_entry	access:public
+_st_table_entry::record	include/st.h	/^    char *record;$/;"	m	struct:_st_table_entry	access:public
+abort	include/port.h	/^extern VOID_HACK abort(), free(), exit(), perror();$/;"	p	signature:()
+abort	include/port.h	/^extern int abort();$/;"	p	signature:()
+active_count	include/espresso.h	/^    int active_count;           \/* Number of "active" sets *\/$/;"	m	struct:set_family	access:public
+all_primes	include/espresso.h	/^extern pcover all_primes();$/;"	p	signature:()
+array_abort	include/array.h	/^EXTERN int array_abort ARGS((array_t *, int));$/;"	p	signature:(array_t *, int)
+array_alloc	include/array.h	35;"	d
+array_append	include/array.h	/^EXTERN void array_append ARGS((array_t *, array_t *));$/;"	p	signature:(array_t *, array_t *)
+array_data	include/array.h	66;"	d
+array_do_alloc	include/array.h	/^EXTERN array_t *array_do_alloc ARGS((int, int));$/;"	p	signature:(int, int)
+array_do_data	include/array.h	/^EXTERN char *array_do_data ARGS((array_t *));$/;"	p	signature:(array_t *)
+array_dup	include/array.h	/^EXTERN array_t *array_dup ARGS((array_t *));$/;"	p	signature:(array_t *)
+array_fetch	include/array.h	50;"	d
+array_fetch_last	include/array.h	60;"	d
+array_fetch_p	include/array.h	55;"	d
+array_free	include/array.h	/^EXTERN void array_free ARGS((array_t *));$/;"	p	signature:(array_t *)
+array_insert	include/array.h	38;"	d
+array_insert_last	include/array.h	47;"	d
+array_join	include/array.h	/^EXTERN array_t *array_join ARGS((array_t *, array_t *));$/;"	p	signature:(array_t *, array_t *)
+array_n	include/array.h	63;"	d
+array_resize	include/array.h	/^EXTERN int array_resize ARGS((array_t *, int));$/;"	p	signature:(array_t *, int)
+array_sort	include/array.h	/^EXTERN void array_sort ARGS((array_t *, int (*)()));$/;"	p	signature:(array_t *, int (*)())
+array_t	include/array.h	/^typedef struct array_t {$/;"	s
+array_t	include/array.h	/^} array_t;$/;"	t	typeref:struct:array_t
+array_t::index	include/array.h	/^    int	 index;		\/* combined index and locking flag.	*\/$/;"	m	struct:array_t	access:public
+array_t::n_size	include/array.h	/^    int	 n_size;	\/* size of 'data' array (in objects)	*\/$/;"	m	struct:array_t	access:public
+array_t::num	include/array.h	/^    int	 num;		\/* number of array elements.		*\/$/;"	m	struct:array_t	access:public
+array_t::obj_size	include/array.h	/^    int	 obj_size;	\/* size of each array object.		*\/$/;"	m	struct:array_t	access:public
+array_t::space	include/array.h	/^    char *space;$/;"	m	struct:array_t	access:public
+array_uniq	include/array.h	/^EXTERN void array_uniq ARGS((array_t *, int (*)(), void (*)()));$/;"	p	signature:(array_t *, int (*)(), void (*)())
+ascend	include/espresso.h	/^extern int ascend();$/;"	p	signature:()
+assert	include/port.h	177;"	d
+assert	include/port.h	186;"	d
+atof	include/port.h	/^extern double atof();$/;"	p	signature:()
+best	include/espresso.h	/^    int best;                   \/* best "binate" variable *\/$/;"	m	struct:cdata_struct	access:public
+binary_mask	include/espresso.h	/^    pset binary_mask;           \/* Mask to extract binary variables *\/$/;"	m	struct:cube_struct	access:public
+binate_split_select	include/espresso.h	/^extern int binate_split_select(pcube *T, register pcube cleft, register pcube cright, int debug_flag);$/;"	p	signature:(pcube *T, register pcube cleft, register pcube cright, int debug_flag)
+bins	include/st.h	/^    st_table_entry **bins;$/;"	m	struct:_st_table	access:public
+bit_index	include/espresso.h	/^extern int bit_index(register unsigned int a);$/;"	p	signature:(register unsigned int a)
+bool	include/espresso.h	240;"	d
+bound	sym_exact.c	/^static int bound;$/;"	v	file:
+bound	sym_greedy.c	/^static int bound;$/;"	v	file:
+boundlevel	sym_exact.c	/^static int *boundlevel;$/;"	v	file:
+cactive	include/espresso.h	/^extern int cactive();$/;"	p	signature:()
+calloc	include/port.h	/^extern char *getenv(), *malloc(), *realloc(), *calloc();$/;"	p	signature:()
+capacity	include/espresso.h	/^    int capacity;               \/* Number of sets allocated *\/$/;"	m	struct:set_family	access:public
+cb1_dsharp	include/espresso.h	/^extern pcover cb1_dsharp();$/;"	p	signature:()
+cb_consensus	include/espresso.h	/^extern pcover cb_consensus();$/;"	p	signature:()
+cb_consensus_dist0	include/espresso.h	/^extern pcover cb_consensus_dist0();$/;"	p	signature:()
+cb_dsharp	include/espresso.h	/^extern pcover cb_dsharp();$/;"	p	signature:()
+cb_recur_dsharp	include/espresso.h	/^extern pcover cb_recur_dsharp();$/;"	p	signature:()
+cb_recur_sharp	include/espresso.h	/^extern pcover cb_recur_sharp();$/;"	p	signature:()
+cb_sharp	include/espresso.h	/^extern pcover cb_sharp();$/;"	p	signature:()
+ccommon	include/espresso.h	/^extern bool ccommon();$/;"	p	signature:()
+cdata_struct	include/espresso.h	/^struct cdata_struct {$/;"	s
+cdata_struct::best	include/espresso.h	/^    int best;                   \/* best "binate" variable *\/$/;"	m	struct:cdata_struct	access:public
+cdata_struct::is_unate	include/espresso.h	/^    bool *is_unate;             \/* indicates given var is unate *\/$/;"	m	struct:cdata_struct	access:public
+cdata_struct::part_zeros	include/espresso.h	/^    int *part_zeros;            \/* count of zeros for each element *\/$/;"	m	struct:cdata_struct	access:public
+cdata_struct::parts_active	include/espresso.h	/^    int *parts_active;          \/* number of "active" parts for each var *\/$/;"	m	struct:cdata_struct	access:public
+cdata_struct::var_zeros	include/espresso.h	/^    int *var_zeros;             \/* count of zeros for each variable *\/$/;"	m	struct:cdata_struct	access:public
+cdata_struct::vars_active	include/espresso.h	/^    int vars_active;            \/* number of "active" variables *\/$/;"	m	struct:cdata_struct	access:public
+cdata_struct::vars_unate	include/espresso.h	/^    int vars_unate;             \/* number of unate variables *\/$/;"	m	struct:cdata_struct	access:public
+cdist	include/espresso.h	/^extern int cdist();$/;"	p	signature:()
+cdist0	include/espresso.h	/^extern bool cdist0();$/;"	p	signature:()
+cdist01	include/espresso.h	/^extern int cdist01();$/;"	p	signature:()
+check_consistency	include/espresso.h	/^extern bool check_consistency();$/;"	p	signature:()
+check_equiv	include/espresso.h	/^extern int check_equiv();$/;"	p	signature:()
+clearerr	include/port.h	/^extern VOID_HACK clearerr();$/;"	p	signature:()
+cnt	include/espresso.h	/^    int cnt;$/;"	m	struct:pair_struct	access:public
+cnt	spm-old.h	/^	int cnt;$/;"	m	struct:in_weight	access:public
+cnt	spm-old.h	/^	unsigned long cnt;$/;"	m	struct:weight_pair	access:public
+cnt	spm.h	/^    int cnt;$/;"	m	struct:in_weight	access:public
+cnt	spm.h	/^    unsigned long cnt;$/;"	m	struct:weight_pair	access:public
+cnt_thr	khwang_symmetry.c	/^static int cnt_thr = 0;$/;"	v	file:
+cof_output	include/espresso.h	/^extern pcover cof_output(pcover T, register int i);$/;"	p	signature:(pcover T, register int i)
+cofactor	include/espresso.h	/^extern pcube *cofactor(pcube *T, register pcube c);$/;"	p	signature:(pcube *T, register pcube c)
+col_num	include/sparse.h	/^    int col_num;		\/* column number of this element *\/$/;"	m	struct:sm_element_struct	access:public
+col_num	include/sparse.h	/^    int col_num;		\/* the column number *\/$/;"	m	struct:sm_col_struct	access:public
+cols	include/sparse.h	/^    sm_col **cols;		\/* pointer to column headers (by col #) *\/$/;"	m	struct:sm_matrix_struct	access:public
+cols_size	include/sparse.h	/^    int cols_size;		\/* alloc'ed size of above array *\/$/;"	m	struct:sm_matrix_struct	access:public
+compare	include/st.h	/^    int (*compare)();$/;"	m	struct:_st_table	access:public
+complement	include/espresso.h	/^extern pcover complement(pcube *T);$/;"	p	signature:(pcube *T)
+consensus	include/espresso.h	/^extern void consensus();$/;"	p	signature:()
+copy_cost	include/espresso.h	/^extern void copy_cost();$/;"	p	signature:()
+cost_struct	include/espresso.h	/^typedef struct cost_struct {$/;"	s
+cost_struct::cubes	include/espresso.h	/^    int cubes;			\/* number of cubes in the cover *\/$/;"	m	struct:cost_struct	access:public
+cost_struct::in	include/espresso.h	/^    int in;			\/* transistor count, binary-valued variables *\/$/;"	m	struct:cost_struct	access:public
+cost_struct::mv	include/espresso.h	/^    int mv;			\/* transistor count, multiple-valued vars *\/$/;"	m	struct:cost_struct	access:public
+cost_struct::out	include/espresso.h	/^    int out;			\/* transistor count, output part *\/$/;"	m	struct:cost_struct	access:public
+cost_struct::primes	include/espresso.h	/^    int primes;			\/* number of prime cubes *\/$/;"	m	struct:cost_struct	access:public
+cost_struct::total	include/espresso.h	/^    int total;			\/* total number of transistors *\/$/;"	m	struct:cost_struct	access:public
+cost_t	include/espresso.h	/^} cost_t, *pcost;$/;"	t	typeref:struct:cost_struct
+count	include/espresso.h	/^    int count;                  \/* The number of sets in the family *\/$/;"	m	struct:set_family	access:public
+count1	khwang_symmetry.c	/^static unsigned int count1 = 0, count2 = 0, count3 = 0;$/;"	v	file:
+count2	khwang_symmetry.c	/^static unsigned int count1 = 0, count2 = 0, count3 = 0;$/;"	v	file:
+count3	khwang_symmetry.c	/^static unsigned int count1 = 0, count2 = 0, count3 = 0;$/;"	v	file:
+count_ones	include/espresso.h	228;"	d
+count_ones	include/espresso.h	232;"	d
+cover_cost	include/espresso.h	/^extern void cover_cost();$/;"	p	signature:()
+cover_print	spm_util.c	/^void cover_print(pcover T)$/;"	f	signature:(pcover T)
+cprint	include/espresso.h	/^extern void cprint();$/;"	p	signature:()
+cube1list	include/espresso.h	/^extern pcube *cube1list(pcover A);$/;"	p	signature:(pcover A)
+cube2list	include/espresso.h	/^extern pcube *cube2list(pcover A, pcover B);$/;"	p	signature:(pcover A, pcover B)
+cube3list	include/espresso.h	/^extern pcube *cube3list(pcover A, pcover B, pcover C);$/;"	p	signature:(pcover A, pcover B, pcover C)
+cube_is_covered	include/espresso.h	/^extern bool cube_is_covered();$/;"	p	signature:()
+cube_print	spm_util.c	/^void cube_print(pset p)$/;"	f	signature:(pset p)
+cube_setup	include/espresso.h	/^extern void cube_setup();$/;"	p	signature:()
+cube_struct	include/espresso.h	/^struct cube_struct {$/;"	s
+cube_struct::binary_mask	include/espresso.h	/^    pset binary_mask;           \/* Mask to extract binary variables *\/$/;"	m	struct:cube_struct	access:public
+cube_struct::emptyset	include/espresso.h	/^    pset emptyset;              \/* an empty cube *\/$/;"	m	struct:cube_struct	access:public
+cube_struct::first_part	include/espresso.h	/^    int *first_part;            \/* first element of each variable *\/$/;"	m	struct:cube_struct	access:public
+cube_struct::first_word	include/espresso.h	/^    int *first_word;            \/* first word for each variable *\/$/;"	m	struct:cube_struct	access:public
+cube_struct::fullset	include/espresso.h	/^    pset fullset;               \/* a full cube *\/$/;"	m	struct:cube_struct	access:public
+cube_struct::inmask	include/espresso.h	/^    unsigned int inmask;        \/* mask to get odd word of binary part *\/$/;"	m	struct:cube_struct	access:public
+cube_struct::inword	include/espresso.h	/^    int inword;                 \/* which word number for above *\/$/;"	m	struct:cube_struct	access:public
+cube_struct::last_part	include/espresso.h	/^    int *last_part;             \/* first element of each variable *\/$/;"	m	struct:cube_struct	access:public
+cube_struct::last_word	include/espresso.h	/^    int *last_word;             \/* last word for each variable *\/$/;"	m	struct:cube_struct	access:public
+cube_struct::mv_mask	include/espresso.h	/^    pset mv_mask;               \/* mask to get mv parts *\/$/;"	m	struct:cube_struct	access:public
+cube_struct::num_binary_vars	include/espresso.h	/^    int num_binary_vars;        \/* number of binary variables *\/$/;"	m	struct:cube_struct	access:public
+cube_struct::num_mv_vars	include/espresso.h	/^    int num_mv_vars;            \/* number of multiple-valued variables *\/$/;"	m	struct:cube_struct	access:public
+cube_struct::num_vars	include/espresso.h	/^    int num_vars;               \/* number of variables in a cube *\/$/;"	m	struct:cube_struct	access:public
+cube_struct::output	include/espresso.h	/^    int output;                 \/* which variable is "output" (-1 if none) *\/$/;"	m	struct:cube_struct	access:public
+cube_struct::part_size	include/espresso.h	/^    int *part_size;             \/* number of elements in each variable *\/$/;"	m	struct:cube_struct	access:public
+cube_struct::size	include/espresso.h	/^    int size;                   \/* set size of a cube *\/$/;"	m	struct:cube_struct	access:public
+cube_struct::sparse	include/espresso.h	/^    int *sparse;                \/* should this variable be sparse? *\/$/;"	m	struct:cube_struct	access:public
+cube_struct::temp	include/espresso.h	/^    pset *temp;                 \/* an array of temporary sets *\/$/;"	m	struct:cube_struct	access:public
+cube_struct::var_mask	include/espresso.h	/^    pset *var_mask;             \/* mask to extract a variable *\/$/;"	m	struct:cube_struct	access:public
+cubelist_partition	include/espresso.h	/^extern int cubelist_partition(pcube *T, pcube **A, pcube **B, unsigned int comp_debug);$/;"	p	signature:(pcube *T, pcube **A, pcube **B, unsigned int comp_debug)
+cubes	include/espresso.h	/^    int cubes;			\/* number of cubes in the cover *\/$/;"	m	struct:cost_struct	access:public
+cubeunlist	include/espresso.h	/^extern pcover cubeunlist(pcube *A1);$/;"	p	signature:(pcube *A1)
+cv_dsharp	include/espresso.h	/^extern pcover cv_dsharp();$/;"	p	signature:()
+cv_intersect	include/espresso.h	/^extern pcover cv_intersect();$/;"	p	signature:()
+cv_sharp	include/espresso.h	/^extern pcover cv_sharp();$/;"	p	signature:()
+cvolume	include/espresso.h	/^extern int cvolume();$/;"	p	signature:()
+d1_order	include/espresso.h	/^extern int d1_order();$/;"	p	signature:()
+d1_order_size	include/espresso.h	/^extern int d1_order_size();$/;"	p	signature:()
+d1_rm_equal	include/espresso.h	/^extern int d1_rm_equal(register pset *A1, int (* compare)());$/;"	p	signature:(register pset *A1, int (* compare)())
+d1merge	include/espresso.h	/^extern pset_family d1merge(pset_family A, int var);$/;"	p	signature:(pset_family A, int var)
+data	include/espresso.h	/^    pset data;                  \/* Pointer to the set data *\/$/;"	m	struct:set_family	access:public
+debug1_print	include/espresso.h	/^extern void debug1_print();$/;"	p	signature:()
+debug_print	include/espresso.h	/^extern void debug_print();$/;"	p	signature:()
+debug_table	include/main.h	/^} debug_table[] = {$/;"	v	typeref:struct:__anon3
+delvar	include/espresso.h	/^extern pcover delvar();$/;"	p	signature:()
+desc1	include/espresso.h	/^extern int desc1();$/;"	p	signature:()
+descend	include/espresso.h	/^extern int descend();$/;"	p	signature:()
+disassemble_fsm	include/espresso.h	/^extern void disassemble_fsm(pPLA PLA, int verbose_mode);$/;"	p	signature:(pPLA PLA, int verbose_mode)
+dist_merge	include/espresso.h	/^extern pset_family dist_merge(pset_family A, pset mask);$/;"	p	signature:(pset_family A, pset mask)
+do_sm_minimum_cover	include/espresso.h	/^pset do_sm_minimum_cover();$/;"	p	signature:()
+dsharp	include/espresso.h	/^extern pcover dsharp();$/;"	p	signature:()
+elim_lowering	include/espresso.h	/^extern void elim_lowering();$/;"	p	signature:()
+emptyset	include/espresso.h	/^    pset emptyset;              \/* an empty cube *\/$/;"	m	struct:cube_struct	access:public
+entry	include/st.h	/^    st_table_entry *entry;$/;"	m	struct:_st_generator	access:public
+eqn_output	include/espresso.h	/^extern void eqn_output();$/;"	p	signature:()
+equal	include/espresso.h	312;"	d
+errCore	include/errtrap.h	/^extern void errCore( \/* int flag *\/ );$/;"	p	signature:( )
+errIgnPop	include/errtrap.h	/^extern void errIgnPush(), errIgnPop();$/;"	p	signature:()
+errIgnPush	include/errtrap.h	/^extern void errIgnPush(), errIgnPop();$/;"	p	signature:()
+errPass	include/errtrap.h	/^extern void errPass( \/* char *format, ... *\/ );$/;"	p	signature:( )
+errPopHandler	include/errtrap.h	/^extern void errPopHandler();$/;"	p	signature:()
+errProgramName	include/errtrap.h	/^extern void errProgramName( \/* char *progName *\/ );$/;"	p	signature:( )
+errPushHandler	include/errtrap.h	/^extern void errPushHandler( \/* void (*handler)() *\/ );$/;"	p	signature:( )
+errRaise	include/errtrap.h	/^extern void errRaise( \/* char *pkgName, int code, char *format, ... *\/ );$/;"	p	signature:( )
+errStatus	include/errtrap.h	/^extern int errStatus();$/;"	p	signature:()
+esp_opt_table	include/main.h	/^} esp_opt_table[] = {$/;"	v	typeref:struct:__anon4
+espresso	include/espresso.h	/^extern pcover espresso();$/;"	p	signature:()
+essen_cube	include/espresso.h	/^extern bool essen_cube();$/;"	p	signature:()
+essen_parts	include/espresso.h	/^extern void essen_parts();$/;"	p	signature:()
+essen_raising	include/espresso.h	/^extern void essen_raising();$/;"	p	signature:()
+essential	include/espresso.h	/^extern pcover essential();$/;"	p	signature:()
+exact_minimum_cover	include/espresso.h	/^extern pset_family exact_minimum_cover();$/;"	p	signature:()
+exit	include/port.h	/^extern VOID_HACK abort(), free(), exit(), perror();$/;"	p	signature:()
+exit	include/port.h	/^extern void free(), exit(), perror();$/;"	p	signature:()
+expand	include/espresso.h	/^extern pcover expand();$/;"	p	signature:()
+expand1	include/espresso.h	/^extern void expand1();$/;"	p	signature:()
+expand1_gasp	include/espresso.h	/^extern void expand1_gasp();$/;"	p	signature:()
+expand_gasp	include/espresso.h	/^extern pcover expand_gasp();$/;"	p	signature:()
+explode	include/espresso.h	/^extern void explode();$/;"	p	signature:()
+fatal	include/espresso.h	/^extern void fatal();$/;"	p	signature:()
+feasibly_covered	include/espresso.h	/^extern bool feasibly_covered();$/;"	p	signature:()
+filename	include/espresso.h	/^    char *filename;             \/* filename *\/$/;"	m	struct:__anon1	access:public
+find_all_minimal_covers_petrick	include/espresso.h	/^extern pcover find_all_minimal_covers_petrick();$/;"	p	signature:()
+find_all_primes	include/espresso.h	/^extern pcover find_all_primes();$/;"	p	signature:()
+find_best_cost	include/espresso.h	/^extern int find_best_cost();$/;"	p	signature:()
+find_covers	include/espresso.h	/^extern pset_family find_covers();$/;"	p	signature:()
+find_dc_inputs	include/espresso.h	/^extern void find_dc_inputs(pPLA PLA, symbolic_list_t *list, int base, int maxval, pcover *newF, pcover *newD);$/;"	p	signature:(pPLA PLA, symbolic_list_t *list, int base, int maxval, pcover *newF, pcover *newD)
+find_equiv_outputs	include/espresso.h	/^extern void find_equiv_outputs();$/;"	p	signature:()
+find_inputs	include/espresso.h	/^extern void find_inputs(pcover A, pPLA PLA, symbolic_list_t *list, int base, int value);$/;"	p	signature:(pcover A, pPLA PLA, symbolic_list_t *list, int base, int value)
+find_optimal_pairing	include/espresso.h	/^extern void find_optimal_pairing();$/;"	p	signature:()
+find_pairing_cost	include/espresso.h	/^extern int **find_pairing_cost();$/;"	p	signature:()
+find_phase	include/espresso.h	/^extern pcube find_phase();$/;"	p	signature:()
+first	spm-old.h	/^        unsigned first;$/;"	m	struct:weight_pair	access:public
+first	spm.h	/^    unsigned first;$/;"	m	struct:weight_pair	access:public
+first_col	include/sparse.h	/^    sm_col *first_col;		\/* first column (linked list of columns) *\/$/;"	m	struct:sm_matrix_struct	access:public
+first_col	include/sparse.h	/^    sm_element *first_col;	\/* first element in this row *\/$/;"	m	struct:sm_row_struct	access:public
+first_part	include/espresso.h	/^    int *first_part;            \/* first element of each variable *\/$/;"	m	struct:cube_struct	access:public
+first_row	include/sparse.h	/^    sm_element *first_row;	\/* first element in this column *\/$/;"	m	struct:sm_col_struct	access:public
+first_row	include/sparse.h	/^    sm_row *first_row;		\/* first row (linked list of all rows) *\/$/;"	m	struct:sm_matrix_struct	access:public
+first_word	include/espresso.h	/^    int *first_word;            \/* first word for each variable *\/$/;"	m	struct:cube_struct	access:public
+flag	include/sparse.h	/^    int flag;			\/* user-defined word *\/$/;"	m	struct:sm_col_struct	access:public
+flag	include/sparse.h	/^    int flag;			\/* user-defined word *\/$/;"	m	struct:sm_row_struct	access:public
+fmt_cost	include/espresso.h	/^extern char *fmt_cost();$/;"	p	signature:()
+fmt_cube	include/espresso.h	/^extern char *fmt_cube();$/;"	p	signature:()
+fmt_expanded_cube	include/espresso.h	/^extern char *fmt_expanded_cube();$/;"	p	signature:()
+force_lower	include/espresso.h	/^extern pset force_lower();$/;"	p	signature:()
+foreach_active_set	include/espresso.h	126;"	d
+foreach_output_function	include/espresso.h	/^extern void foreach_output_function(pPLA PLA, int (* func)(), int (* func1)());$/;"	p	signature:(pPLA PLA, int (* func)(), int (* func1)())
+foreach_remaining_set	include/espresso.h	124;"	d
+foreach_set	include/espresso.h	122;"	d
+foreach_set2	spm-old.h	5;"	d
+foreach_set2	spm.h	16;"	d
+foreach_set_element	include/espresso.h	142;"	d
+foreachi_active_set	include/espresso.h	132;"	d
+foreachi_set	include/espresso.h	130;"	d
+form_bitvector	include/espresso.h	/^extern void form_bitvector(pset p, int base, int value, symbolic_list_t *list);$/;"	p	signature:(pset p, int base, int value, symbolic_list_t *list)
+form_cover_table	include/espresso.h	/^extern pset_family form_cover_table();$/;"	p	signature:()
+fpr_header	include/espresso.h	/^extern void fpr_header();$/;"	p	signature:()
+fprint_pla	include/espresso.h	/^extern void fprint_pla();$/;"	p	signature:()
+free	include/port.h	/^extern VOID_HACK abort(), free(), exit(), perror();$/;"	p	signature:()
+free	include/port.h	/^extern void free(), exit(), perror();$/;"	p	signature:()
+free_PLA	include/espresso.h	/^extern void free_PLA(pPLA PLA);$/;"	p	signature:(pPLA PLA)
+free_cover	include/espresso.h	252;"	d
+free_cube	include/espresso.h	249;"	d
+free_cubelist	include/espresso.h	253;"	d
+full_row	include/espresso.h	/^extern bool full_row();$/;"	p	signature:()
+fullset	include/espresso.h	/^    pset fullset;               \/* a full cube *\/$/;"	m	struct:cube_struct	access:public
+gen_primes	include/espresso.h	/^extern pset_family gen_primes();$/;"	p	signature:()
+generate_all_pairs	include/espresso.h	/^extern void generate_all_pairs();$/;"	p	signature:()
+get_word	include/espresso.h	/^extern char *get_word(register FILE *fp, register char *word);$/;"	p	signature:(register FILE *fp, register char *word)
+getenv	include/port.h	/^extern char *getenv(), *malloc(), *realloc(), *calloc();$/;"	p	signature:()
+getopt	include/espresso.h	/^extern int getopt();$/;"	p	signature:()
+greedy_best_cost	include/espresso.h	/^extern int greedy_best_cost();$/;"	p	signature:()
+grow_factor	include/st.h	/^    double grow_factor;$/;"	m	struct:_st_table	access:public
+hash	include/st.h	/^    int (*hash)();$/;"	m	struct:_st_table	access:public
+in	include/espresso.h	/^    int in;			\/* transistor count, binary-valued variables *\/$/;"	m	struct:cost_struct	access:public
+in_weight	spm-old.h	/^typedef struct in_weight{$/;"	s
+in_weight	spm.h	/^typedef struct in_weight$/;"	s
+in_weight::cnt	spm-old.h	/^	int cnt;$/;"	m	struct:in_weight	access:public
+in_weight::cnt	spm.h	/^    int cnt;$/;"	m	struct:in_weight	access:public
+in_weight::pos	spm-old.h	/^	int pos;$/;"	m	struct:in_weight	access:public
+in_weight::pos	spm.h	/^    int pos;$/;"	m	struct:in_weight	access:public
+in_weight_t	spm-old.h	/^}in_weight_t, *pin_weight;$/;"	t	typeref:struct:in_weight
+in_weight_t	spm.h	/^} in_weight_t, *pin_weight;$/;"	t	typeref:struct:in_weight
+index	include/array.h	/^    int	 index;		\/* combined index and locking flag.	*\/$/;"	m	struct:array_t	access:public
+index	include/st.h	/^    int index;$/;"	m	struct:_st_generator	access:public
+index	spm.h	/^    unsigned int  index;$/;"	m	struct:Skew_Ds	access:public
+inmask	include/espresso.h	/^    unsigned int inmask;        \/* mask to get odd word of binary part *\/$/;"	m	struct:cube_struct	access:public
+int16	include/port.h	/^typedef int int16;$/;"	t
+int16	include/port.h	/^typedef short int16;$/;"	t
+int32	include/port.h	/^typedef int int32;$/;"	t
+int32	include/port.h	/^typedef long int32;$/;"	t
+inword	include/espresso.h	/^    int inword;                 \/* which word number for above *\/$/;"	m	struct:cube_struct	access:public
+irred_derive_table	include/espresso.h	/^extern sm_matrix *irred_derive_table();$/;"	p	signature:()
+irred_gasp	include/espresso.h	/^extern pcover irred_gasp();$/;"	p	signature:()
+irred_split_cover	include/espresso.h	/^extern void irred_split_cover();$/;"	p	signature:()
+irredundant	include/espresso.h	/^extern pcover irredundant();$/;"	p	signature:()
+is_in_set	include/espresso.h	157;"	d
+is_unate	include/espresso.h	/^    bool *is_unate;             \/* indicates given var is unate *\/$/;"	m	struct:cdata_struct	access:public
+ite_set	new.c	/^ite_set(pset a, pset b, pset c)$/;"	f	signature:(pset a, pset b, pset c)
+key	include/espresso.h	/^    char *key;$/;"	m	struct:pla_types_struct	access:public
+key	include/main.h	/^    enum keys key;$/;"	m	struct:__anon2	typeref:enum:__anon2::keys	access:public
+key	include/st.h	/^    char *key;$/;"	m	struct:_st_table_entry	access:public
+keys	include/main.h	/^enum keys {$/;"	g
+kiss_output	include/espresso.h	/^extern void kiss_output();$/;"	p	signature:()
+kiss_print_cube	include/espresso.h	/^extern void kiss_print_cube();$/;"	p	signature:()
+label	include/espresso.h	/^    char **label;		\/* labels for the columns *\/$/;"	m	struct:__anon1	access:public
+label	include/espresso.h	/^    char *label;$/;"	m	struct:symbolic_label_struct	access:public
+label_index	include/espresso.h	/^extern int label_index(pPLA PLA, char *word, int *varp, int *ip);$/;"	p	signature:(pPLA PLA, char *word, int *varp, int *ip)
+last_col	include/sparse.h	/^    sm_col *last_col;		\/* last column (linked list of columns) *\/$/;"	m	struct:sm_matrix_struct	access:public
+last_col	include/sparse.h	/^    sm_element *last_col;	\/* last element in this row *\/$/;"	m	struct:sm_row_struct	access:public
+last_gasp	include/espresso.h	/^extern pcover last_gasp();$/;"	p	signature:()
+last_part	include/espresso.h	/^    int *last_part;             \/* first element of each variable *\/$/;"	m	struct:cube_struct	access:public
+last_row	include/sparse.h	/^    sm_element *last_row;	\/* last element in this column *\/$/;"	m	struct:sm_col_struct	access:public
+last_row	include/sparse.h	/^    sm_row *last_row;		\/* last row (linked list of all rows) *\/$/;"	m	struct:sm_matrix_struct	access:public
+last_word	include/espresso.h	/^    int *last_word;             \/* last word for each variable *\/$/;"	m	struct:cube_struct	access:public
+leader	sym_heuristic.c	/^static int *leader;$/;"	v	file:
+length	include/sparse.h	/^    int length;			\/* number of elements in this column *\/$/;"	m	struct:sm_col_struct	access:public
+length	include/sparse.h	/^    int length;			\/* number of elements in this row *\/$/;"	m	struct:sm_row_struct	access:public
+lex_order	include/espresso.h	/^extern int lex_order();$/;"	p	signature:()
+lex_order1	include/espresso.h	/^extern int lex_order1();$/;"	p	signature:()
+lex_sort	include/espresso.h	/^extern pcover lex_sort(pcover T);$/;"	p	signature:(pcover T)
+main	main.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+make_disjoint	include/espresso.h	/^extern pcover make_disjoint();$/;"	p	signature:()
+make_sparse	include/espresso.h	/^extern pcover make_sparse();$/;"	p	signature:()
+makeup_labels	include/espresso.h	/^extern int makeup_labels();$/;"	p	signature:()
+malloc	include/port.h	/^extern char *getenv(), *malloc(), *realloc(), *calloc();$/;"	p	signature:()
+map	include/espresso.h	/^extern void map();$/;"	p	signature:()
+map_cover_to_unate	include/espresso.h	/^extern pcover map_cover_to_unate();$/;"	p	signature:()
+map_dcset	include/espresso.h	/^extern void map_dcset(pPLA PLA);$/;"	p	signature:(pPLA PLA)
+map_output_symbolic	include/espresso.h	/^extern void map_output_symbolic(pPLA PLA);$/;"	p	signature:(pPLA PLA)
+map_symbolic	include/espresso.h	/^extern void map_symbolic(pPLA PLA);$/;"	p	signature:(pPLA PLA)
+map_symbolic_cover	include/espresso.h	/^extern pcover map_symbolic_cover(pcover T, symbolic_list_t *list, int base);$/;"	p	signature:(pcover T, symbolic_list_t *list, int base)
+map_unate_to_cover	include/espresso.h	/^extern pcover map_unate_to_cover();$/;"	p	signature:()
+mark_irredundant	include/espresso.h	/^extern void mark_irredundant();$/;"	p	signature:()
+massive_count	include/espresso.h	/^extern void massive_count(pcube *T);$/;"	p	signature:(pcube *T)
+max_density	include/st.h	/^    int max_density;$/;"	m	struct:_st_table	access:public
+memccpy	include/port.h	/^extern char *memmove(), *memccpy(), *memchr(), *memcpy(), *memset();$/;"	p	signature:()
+memchr	include/port.h	/^extern char *memmove(), *memccpy(), *memchr(), *memcpy(), *memset();$/;"	p	signature:()
+memcmp	include/port.h	/^extern int memcmp(), strcmp();$/;"	p	signature:()
+memcpy	include/port.h	/^extern char *memmove(), *memccpy(), *memchr(), *memcpy(), *memset();$/;"	p	signature:()
+memmove	include/port.h	/^extern char *memmove(), *memccpy(), *memchr(), *memcpy(), *memset();$/;"	p	signature:()
+memset	include/port.h	/^extern char *memmove(), *memccpy(), *memchr(), *memcpy(), *memset();$/;"	p	signature:()
+mincov	include/espresso.h	/^extern void mincov();$/;"	p	signature:()
+mini_sort	include/espresso.h	/^extern pcover mini_sort(pcover F, int (* compare)());$/;"	p	signature:(pcover F, int (* compare)())
+minimize_exact	include/espresso.h	/^extern pcover minimize_exact();$/;"	p	signature:()
+minimize_exact_literals	include/espresso.h	/^extern pcover minimize_exact_literals();$/;"	p	signature:()
+minimize_pair	include/espresso.h	/^extern int minimize_pair();$/;"	p	signature:()
+minterms	include/espresso.h	/^extern pset minterms();$/;"	p	signature:()
+most_frequent	include/espresso.h	/^extern int most_frequent();$/;"	p	signature:()
+mv	include/espresso.h	/^    int mv;			\/* transistor count, multiple-valued vars *\/$/;"	m	struct:cost_struct	access:public
+mv_mask	include/espresso.h	/^    pset mv_mask;               \/* mask to get mv parts *\/$/;"	m	struct:cube_struct	access:public
+mv_reduce	include/espresso.h	/^extern pcover mv_reduce();$/;"	p	signature:()
+my_sf_sort	symm_util.c	/^pset *my_sf_sort(A, compare)$/;"	f
+n_size	include/array.h	/^    int	 n_size;	\/* size of 'data' array (in objects)	*\/$/;"	m	struct:array_t	access:public
+name	include/main.h	/^    char *name;$/;"	m	struct:__anon2	access:public
+name	include/main.h	/^    char *name;$/;"	m	struct:__anon3	access:public
+name	include/main.h	/^    char *name;$/;"	m	struct:__anon4	access:public
+ncols	include/sparse.h	/^    int ncols;			\/* number of columns *\/$/;"	m	struct:sm_matrix_struct	access:public
+needs_dcset	include/main.h	/^    bool needs_dcset;$/;"	m	struct:__anon2	access:public
+needs_offset	include/main.h	/^    bool needs_offset;$/;"	m	struct:__anon2	access:public
+new_PLA	include/espresso.h	/^extern pPLA new_PLA();$/;"	p	signature:()
+new_cover	include/espresso.h	251;"	d
+new_cube	include/espresso.h	248;"	d
+next	include/espresso.h	/^    struct set_family *next;    \/* For garbage collection *\/$/;"	m	struct:set_family	typeref:struct:set_family::set_family	access:public
+next	include/espresso.h	/^    struct symbolic_label_struct *next;$/;"	m	struct:symbolic_label_struct	typeref:struct:symbolic_label_struct::symbolic_label_struct	access:public
+next	include/espresso.h	/^    struct symbolic_list_struct *next;$/;"	m	struct:symbolic_list_struct	typeref:struct:symbolic_list_struct::symbolic_list_struct	access:public
+next	include/espresso.h	/^    struct symbolic_struct *next;$/;"	m	struct:symbolic_struct	typeref:struct:symbolic_struct::symbolic_struct	access:public
+next	include/st.h	/^    st_table_entry *next;$/;"	m	struct:_st_table_entry	access:public
+next_col	include/sparse.h	/^    sm_col *next_col;		\/* next column (in sm_matrix linked list) *\/$/;"	m	struct:sm_col_struct	access:public
+next_col	include/sparse.h	/^    sm_element *next_col;	\/* next column in this row *\/$/;"	m	struct:sm_element_struct	access:public
+next_row	include/sparse.h	/^    sm_element *next_row;	\/* next row in this column *\/$/;"	m	struct:sm_element_struct	access:public
+next_row	include/sparse.h	/^    sm_row *next_row;		\/* next row (in sm_matrix linked list) *\/$/;"	m	struct:sm_row_struct	access:public
+nin	spm.h	/^    int     nin;$/;"	m	struct:spm_manager	access:public
+nou	spm.h	/^    int     nou;$/;"	m	struct:spm_manager	access:public
+nrows	include/sparse.h	/^    int nrows;			\/* number of rows *\/$/;"	m	struct:sm_matrix_struct	access:public
+num	include/array.h	/^    int	 num;		\/* number of array elements.		*\/$/;"	m	struct:array_t	access:public
+num	spm-old.h	/^        unsigned num;$/;"	m	struct:weight_pair	access:public
+num	spm.h	/^    int     num;     \/* number of partitions *\/$/;"	m	struct:part_manager	access:public
+num	spm.h	/^    unsigned num;$/;"	m	struct:weight_pair	access:public
+num_binary_vars	include/espresso.h	/^    int num_binary_vars;        \/* number of binary variables *\/$/;"	m	struct:cube_struct	access:public
+num_bins	include/st.h	/^    int num_bins;$/;"	m	struct:_st_table	access:public
+num_entries	include/st.h	/^    int num_entries;$/;"	m	struct:_st_table	access:public
+num_mv_vars	include/espresso.h	/^    int num_mv_vars;            \/* number of multiple-valued variables *\/$/;"	m	struct:cube_struct	access:public
+num_plas	include/main.h	/^    int num_plas;$/;"	m	struct:__anon2	access:public
+num_vars	include/espresso.h	/^    int num_vars;               \/* number of variables in a cube *\/$/;"	m	struct:cube_struct	access:public
+obj_size	include/array.h	/^    int	 obj_size;	\/* size of each array object.		*\/$/;"	m	struct:array_t	access:public
+octtools_copyright	include/copyright.h	/^static char octtools_copyright[] = "Copyright (c) 1988, 1989, Regents of the University of California.  All rights reserved.";$/;"	v
+opo	include/espresso.h	/^extern pcover opo();$/;"	p	signature:()
+opo_leaf	include/espresso.h	/^extern pset_family opo_leaf();$/;"	p	signature:()
+opo_recur	include/espresso.h	/^extern pset_family opo_recur();$/;"	p	signature:()
+opoall	include/espresso.h	/^extern void opoall();$/;"	p	signature:()
+option_table	include/main.h	/^} option_table [] = {$/;"	v	typeref:struct:__anon2
+out	include/espresso.h	/^    int out;			\/* transistor count, output part *\/$/;"	m	struct:cost_struct	access:public
+output	include/espresso.h	/^    int output;                 \/* which variable is "output" (-1 if none) *\/$/;"	m	struct:cube_struct	access:public
+output_is_intersective	khwang/khwang_general.c	/^bool output_is_intersective(pset a, pset b)$/;"	f	signature:(pset a, pset b)
+output_is_intersective	khwang_symmetry.c	/^bool output_is_intersective(pset a, pset b)$/;"	f	signature:(pset a, pset b)
+output_is_intersective	spm.h	/^bool output_is_intersective(pset a, pset b);$/;"	p	signature:(pset a, pset b)
+output_phase_setup	include/espresso.h	/^extern void output_phase_setup();$/;"	p	signature:()
+output_symbolic_constraints	include/espresso.h	/^extern void output_symbolic_constraints();$/;"	p	signature:()
+pPLA	include/espresso.h	/^} PLA_t, *pPLA;$/;"	t	typeref:struct:__anon1
+pPart_Manager	spm.h	/^} Part_Manager_Type, *pPart_Manager;$/;"	t	typeref:struct:part_manager
+pSkew	spm.h	/^} *pSkew, Skew_t;$/;"	t	typeref:struct:Skew_Ds
+pSpm_Manager	spm.h	/^} Spm_Manager_Type, *pSpm_Manager;$/;"	t	typeref:struct:spm_manager
+pair	include/espresso.h	/^    ppair pair;                 \/* how to pair variables *\/$/;"	m	struct:__anon1	access:public
+pair_all	include/espresso.h	/^extern void pair_all();$/;"	p	signature:()
+pair_best_cost	include/espresso.h	/^extern ppair pair_best_cost();$/;"	p	signature:()
+pair_free	include/espresso.h	/^extern int pair_free();$/;"	p	signature:()
+pair_new	include/espresso.h	/^extern ppair pair_new();$/;"	p	signature:()
+pair_save	include/espresso.h	/^extern ppair pair_save();$/;"	p	signature:()
+pair_struct	include/espresso.h	/^typedef struct pair_struct {$/;"	s
+pair_struct::cnt	include/espresso.h	/^    int cnt;$/;"	m	struct:pair_struct	access:public
+pair_struct::var1	include/espresso.h	/^    int *var1;$/;"	m	struct:pair_struct	access:public
+pair_struct::var2	include/espresso.h	/^    int *var2;$/;"	m	struct:pair_struct	access:public
+pair_t	include/espresso.h	/^} pair_t, *ppair;$/;"	t	typeref:struct:pair_struct
+pairvar	include/espresso.h	/^extern pcover pairvar();$/;"	p	signature:()
+parse_pla	include/espresso.h	/^extern void parse_pla(FILE *fp, pPLA PLA);$/;"	p	signature:(FILE *fp, pPLA PLA)
+part_manager	spm.h	/^typedef struct part_manager$/;"	s
+part_manager::Leader	spm.h	/^    int     *Leader;   \/* the first variable index, in each group *\/$/;"	m	struct:part_manager	access:public
+part_manager::Part	spm.h	/^    pcover  Part;       \/* Part->count == num *\/$/;"	m	struct:part_manager	access:public
+part_manager::Size	spm.h	/^    int     *Size;    \/* record the size (number of variables in each group *\/$/;"	m	struct:part_manager	access:public
+part_manager::WSS	spm.h	/^    pcover  WSS;        \/* Weakly Symmetric Set *\/$/;"	m	struct:part_manager	access:public
+part_manager::num	spm.h	/^    int     num;     \/* number of partitions *\/$/;"	m	struct:part_manager	access:public
+part_size	include/espresso.h	/^    int *part_size;             \/* number of elements in each variable *\/$/;"	m	struct:cube_struct	access:public
+part_zeros	include/espresso.h	/^    int *part_zeros;            \/* count of zeros for each element *\/$/;"	m	struct:cdata_struct	access:public
+parts_active	include/espresso.h	/^    int *parts_active;          \/* number of "active" parts for each var *\/$/;"	m	struct:cdata_struct	access:public
+pass	sym_exact.c	/^static int pass;$/;"	v	file:
+pass	sym_greedy.c	/^static int pass;$/;"	v	file:
+pbv1	include/espresso.h	/^extern char *pbv1(pset s, int n);$/;"	p	signature:(pset s, int n)
+pc1	include/espresso.h	/^extern char *pc1();$/;"	p	signature:()
+pc2	include/espresso.h	/^extern char *pc2();$/;"	p	signature:()
+pc3	include/espresso.h	/^extern char *pc3();$/;"	p	signature:()
+pclose	include/port.h	/^extern int pclose();$/;"	p	signature:()
+pcost	include/espresso.h	/^} cost_t, *pcost;$/;"	t	typeref:struct:cost_struct
+pcover	include/espresso.h	250;"	d
+pcube	include/espresso.h	247;"	d
+perror	include/port.h	/^extern VOID_HACK abort(), free(), exit(), perror();$/;"	p	signature:()
+perror	include/port.h	/^extern void free(), exit(), perror();$/;"	p	signature:()
+phase	include/espresso.h	/^    pcube phase;                \/* phase to split into on-set and off-set *\/$/;"	m	struct:__anon1	access:public
+phase_assignment	include/espresso.h	/^extern void phase_assignment();$/;"	p	signature:()
+pin_weight	spm-old.h	/^}in_weight_t, *pin_weight;$/;"	t	typeref:struct:in_weight
+pin_weight	spm.h	/^} in_weight_t, *pin_weight;$/;"	t	typeref:struct:in_weight
+pla_type	include/espresso.h	/^    int pla_type;               \/* logical PLA format *\/$/;"	m	struct:__anon1	access:public
+pla_types_struct	include/espresso.h	/^struct pla_types_struct {$/;"	s
+pla_types_struct::key	include/espresso.h	/^    char *key;$/;"	m	struct:pla_types_struct	access:public
+pla_types_struct::value	include/espresso.h	/^    int value;$/;"	m	struct:pla_types_struct	access:public
+pls_group	include/espresso.h	/^extern void pls_group();$/;"	p	signature:()
+pls_label	include/espresso.h	/^extern void pls_label();$/;"	p	signature:()
+pls_output	include/espresso.h	/^extern void pls_output();$/;"	p	signature:()
+popen	include/port.h	/^extern FILE *popen(), *tmpfile();$/;"	p	signature:()
+pos	include/espresso.h	/^    int pos;$/;"	m	struct:symbolic_list_struct	access:public
+pos	spm-old.h	/^	int pos;$/;"	m	struct:in_weight	access:public
+pos	spm.h	/^    int pos;$/;"	m	struct:in_weight	access:public
+ppair	include/espresso.h	/^} pair_t, *ppair;$/;"	t	typeref:struct:pair_struct
+prev_col	include/sparse.h	/^    sm_col *prev_col;		\/* prev column (in sm_matrix linked list) *\/$/;"	m	struct:sm_col_struct	access:public
+prev_col	include/sparse.h	/^    sm_element *prev_col;	\/* previous column in this row *\/$/;"	m	struct:sm_element_struct	access:public
+prev_row	include/sparse.h	/^    sm_element *prev_row;	\/* previous row in this column *\/$/;"	m	struct:sm_element_struct	access:public
+prev_row	include/sparse.h	/^    sm_row *prev_row;		\/* previous row (in sm_matrix linked list) *\/$/;"	m	struct:sm_row_struct	access:public
+primes	include/espresso.h	/^    int primes;			\/* number of prime cubes *\/$/;"	m	struct:cost_struct	access:public
+primes_consensus	include/espresso.h	/^extern pcover primes_consensus();$/;"	p	signature:()
+print_bool	include/espresso.h	244;"	d
+print_cost	include/espresso.h	/^extern char *print_cost();$/;"	p	signature:()
+print_cube	include/espresso.h	/^extern void print_cube();$/;"	p	signature:()
+print_expanded_cube	include/espresso.h	/^extern void print_expanded_cube();$/;"	p	signature:()
+print_pair	include/espresso.h	/^extern void print_pair();$/;"	p	signature:()
+print_time	include/espresso.h	11;"	d
+print_trace	include/espresso.h	/^extern void print_trace();$/;"	p	signature:()
+ps1	include/espresso.h	/^extern char *ps1(register pset a);$/;"	p	signature:(register pset a)
+pset	include/espresso.h	/^typedef unsigned int *pset;$/;"	t
+pset_family	include/espresso.h	/^} set_family_t, *pset_family;$/;"	t	typeref:struct:set_family
+pset_spms	spm.h	/^    pset    *pset_spms;   \/*  array of spm_sets for all output *\/$/;"	m	struct:spm_manager	access:public
+pspms	spm.h	/^    pcover  *pspms;       \/* array of spm's for all output *\/$/;"	m	struct:spm_manager	access:public
+ptime	include/espresso.h	10;"	d
+ptr	spm-old.h	/^	pset ptr;$/;"	m	struct:weight_pair	access:public
+ptr	spm.h	/^    pset ptr;$/;"	m	struct:weight_pair	access:public
+putc	include/port.h	157;"	d
+pweight_pair	spm-old.h	/^} weight_pair_t, *pweight_pair;$/;"	t	typeref:struct:weight_pair
+pweight_pair	spm.h	/^} weight_pair_t, *pweight_pair;$/;"	t	typeref:struct:weight_pair
+random	include/port.h	/^extern long random();$/;"	p	signature:()
+random_order	include/espresso.h	/^extern pcover random_order(register pcover F);$/;"	p	signature:(register pcover F)
+read_cube	include/espresso.h	/^extern void read_cube(register FILE *fp, pPLA PLA);$/;"	p	signature:(register FILE *fp, pPLA PLA)
+read_pla	include/espresso.h	/^extern int read_pla(FILE *fp, bool needs_dcset, bool needs_offset, int pla_type, pPLA *PLA_return);$/;"	p	signature:(FILE *fp, bool needs_dcset, bool needs_offset, int pla_type, pPLA *PLA_return)
+read_symbolic	include/espresso.h	/^extern int read_symbolic(FILE *fp, pPLA PLA, char *word, symbolic_t **retval);$/;"	p	signature:(FILE *fp, pPLA PLA, char *word, symbolic_t **retval)
+readfile	main.c	/^int readfile(char *filename, pPLA *tPLA, int pla_type)$/;"	f	signature:(char *filename, pPLA *tPLA, int pla_type)
+realloc	include/port.h	/^extern char *getenv(), *malloc(), *realloc(), *calloc();$/;"	p	signature:()
+record	include/st.h	/^    char *record;$/;"	m	struct:_st_table_entry	access:public
+reduce	include/espresso.h	/^extern pcover reduce();$/;"	p	signature:()
+reduce_cube	include/espresso.h	/^extern pcube reduce_cube();$/;"	p	signature:()
+reorder_flag	include/st.h	/^    int reorder_flag;$/;"	m	struct:_st_table	access:public
+repeated_phase_assignment	include/espresso.h	/^extern void repeated_phase_assignment();$/;"	p	signature:()
+restore_cube_struct	include/espresso.h	/^extern void restore_cube_struct();$/;"	p	signature:()
+rewind	include/port.h	/^extern VOID_HACK rewind();$/;"	p	signature:()
+rm2_contain	include/espresso.h	/^extern int rm2_contain(pset *A1, pset *B1);$/;"	p	signature:(pset *A1, pset *B1)
+rm2_equal	include/espresso.h	/^extern int rm2_equal(register pset *A1, register pset *B1, pset *E1, int (* compare)());$/;"	p	signature:(register pset *A1, register pset *B1, pset *E1, int (* compare)())
+rm_contain	include/espresso.h	/^extern int rm_contain(pset *A1);$/;"	p	signature:(pset *A1)
+rm_equal	include/espresso.h	/^extern int rm_equal(pset *A1, int (* compare)());$/;"	p	signature:(pset *A1, int (* compare)())
+rm_rev_contain	include/espresso.h	/^extern int rm_rev_contain(pset *A1);$/;"	p	signature:(pset *A1)
+row_num	include/sparse.h	/^    int row_num;		\/* row number of this element *\/$/;"	m	struct:sm_element_struct	access:public
+row_num	include/sparse.h	/^    int row_num;		\/* the row number *\/$/;"	m	struct:sm_row_struct	access:public
+rows	include/sparse.h	/^    sm_row **rows;		\/* pointer to row headers (by row #) *\/$/;"	m	struct:sm_matrix_struct	access:public
+rows_size	include/sparse.h	/^    int rows_size;		\/* alloc'ed size of above array *\/$/;"	m	struct:sm_matrix_struct	access:public
+save_cube_struct	include/espresso.h	/^extern void save_cube_struct();$/;"	p	signature:()
+sccc	include/espresso.h	/^extern pcube sccc();$/;"	p	signature:()
+sccc_cube	include/espresso.h	/^extern pcube sccc_cube();$/;"	p	signature:()
+sccc_merge	include/espresso.h	/^extern pcube sccc_merge();$/;"	p	signature:()
+sccc_special_cases	include/espresso.h	/^extern bool sccc_special_cases();$/;"	p	signature:()
+scofactor	include/espresso.h	/^extern pcube *scofactor(pcube *T, pcube c, int var);$/;"	p	signature:(pcube *T, pcube c, int var)
+select_feasible	include/espresso.h	/^extern void select_feasible();$/;"	p	signature:()
+set_adjcnt	include/espresso.h	/^extern void set_adjcnt(register pset a, register int *count, register int weight);$/;"	p	signature:(register pset a, register int *count, register int weight)
+set_and	include/espresso.h	/^extern pset set_and(register pset r, register pset a, register pset b);$/;"	p	signature:(register pset r, register pset a, register pset b)
+set_andp	include/espresso.h	/^extern bool set_andp(register pset r, register pset a, register pset b);$/;"	p	signature:(register pset r, register pset a, register pset b)
+set_clear	include/espresso.h	/^extern pset set_clear(register pset r, int size);$/;"	p	signature:(register pset r, int size)
+set_complement	new.c	/^set_complement(pset a)$/;"	f	signature:(pset a)
+set_copy	include/espresso.h	/^extern pset set_copy(register pset r, register pset a);$/;"	p	signature:(register pset r, register pset a)
+set_diff	include/espresso.h	/^extern pset set_diff(register pset r, register pset a, register pset b);$/;"	p	signature:(register pset r, register pset a, register pset b)
+set_dist	include/espresso.h	/^extern int set_dist(register pset a, register pset b);$/;"	p	signature:(register pset a, register pset b)
+set_family	include/espresso.h	/^typedef struct set_family {$/;"	s
+set_family::active_count	include/espresso.h	/^    int active_count;           \/* Number of "active" sets *\/$/;"	m	struct:set_family	access:public
+set_family::capacity	include/espresso.h	/^    int capacity;               \/* Number of sets allocated *\/$/;"	m	struct:set_family	access:public
+set_family::count	include/espresso.h	/^    int count;                  \/* The number of sets in the family *\/$/;"	m	struct:set_family	access:public
+set_family::data	include/espresso.h	/^    pset data;                  \/* Pointer to the set data *\/$/;"	m	struct:set_family	access:public
+set_family::next	include/espresso.h	/^    struct set_family *next;    \/* For garbage collection *\/$/;"	m	struct:set_family	typeref:struct:set_family::set_family	access:public
+set_family::sf_size	include/espresso.h	/^    int sf_size;                \/* User declared set size *\/$/;"	m	struct:set_family	access:public
+set_family::wsize	include/espresso.h	/^    int wsize;                  \/* Size of each set in 'ints' *\/$/;"	m	struct:set_family	access:public
+set_family_t	include/espresso.h	/^} set_family_t, *pset_family;$/;"	t	typeref:struct:set_family
+set_fill	include/espresso.h	/^extern pset set_fill(register pset r, register int size);$/;"	p	signature:(register pset r, register int size)
+set_free	include/espresso.h	154;"	d
+set_full	include/espresso.h	152;"	d
+set_insert	include/espresso.h	159;"	d
+set_merge	include/espresso.h	/^extern pset set_merge(register pset r, register pset a, register pset b, register pset mask);$/;"	p	signature:(register pset r, register pset a, register pset b, register pset mask)
+set_new	include/espresso.h	151;"	d
+set_or	include/espresso.h	/^extern pset set_or(register pset r, register pset a, register pset b);$/;"	p	signature:(register pset r, register pset a, register pset b)
+set_ord	include/espresso.h	/^extern int set_ord(register pset a);$/;"	p	signature:(register pset a)
+set_orp	include/espresso.h	/^extern bool set_orp(register pset r, register pset a, register pset b);$/;"	p	signature:(register pset r, register pset a, register pset b)
+set_out	spm.h	/^    pset    set_out;$/;"	m	struct:spm_manager	access:public
+set_pair	include/espresso.h	/^extern void set_pair();$/;"	p	signature:()
+set_pair1	include/espresso.h	/^extern void set_pair1();$/;"	p	signature:()
+set_phase	include/espresso.h	/^extern pPLA set_phase();$/;"	p	signature:()
+set_remove	include/espresso.h	158;"	d
+set_save	include/espresso.h	153;"	d
+set_spm	spm.h	/^    pset    set_spm;      \/* nin bits for global output *\/$/;"	m	struct:spm_manager	access:public
+set_write	include/espresso.h	/^extern void set_write(register FILE *fp, register pset a);$/;"	p	signature:(register FILE *fp, register pset a)
+set_xor	include/espresso.h	/^extern pset set_xor(register pset r, register pset a, register pset b);$/;"	p	signature:(register pset r, register pset a, register pset b)
+setdown_cube	include/espresso.h	/^extern void setdown_cube();$/;"	p	signature:()
+setp_disjoint	include/espresso.h	/^extern bool setp_disjoint(register pset a, register pset b);$/;"	p	signature:(register pset a, register pset b)
+setp_empty	include/espresso.h	/^extern bool setp_empty(register pset a);$/;"	p	signature:(register pset a)
+setp_equal	include/espresso.h	/^extern bool setp_equal(register pset a, register pset b);$/;"	p	signature:(register pset a, register pset b)
+setp_full	include/espresso.h	/^extern bool setp_full(register pset a, register int size);$/;"	p	signature:(register pset a, register int size)
+setp_implies	include/espresso.h	/^extern bool setp_implies(register pset a, register pset b);$/;"	p	signature:(register pset a, register pset b)
+setp_input_empty	new.c	/^setp_input_empty(pset a)$/;"	f	signature:(pset a)
+setu_and	spm_util.c	/^pset setu_and(pset r, pset a, unsigned b)$/;"	f	signature:(pset r, pset a, unsigned b)
+setu_xor	spm_util.c	/^pset setu_xor(pset r, pset a, unsigned b)$/;"	f	signature:(pset r, pset a, unsigned b)
+setup_BB_CC	include/espresso.h	/^extern void setup_BB_CC();$/;"	p	signature:()
+sf_active	include/espresso.h	/^extern pset_family sf_active(pset_family A);$/;"	p	signature:(pset_family A)
+sf_addcol	include/espresso.h	/^extern pset_family sf_addcol(pset_family A, int firstcol, int n);$/;"	p	signature:(pset_family A, int firstcol, int n)
+sf_addset	include/espresso.h	/^extern pset_family sf_addset(pset_family A, pset s);$/;"	p	signature:(pset_family A, pset s)
+sf_and	include/espresso.h	/^extern pset sf_and(pset_family A);$/;"	p	signature:(pset_family A)
+sf_append	include/espresso.h	/^extern pset_family sf_append(pset_family A, pset_family B);$/;"	p	signature:(pset_family A, pset_family B)
+sf_bm_print	include/espresso.h	/^extern void sf_bm_print(pset_family A);$/;"	p	signature:(pset_family A)
+sf_bm_read	include/espresso.h	/^extern pset_family sf_bm_read(FILE *fp);$/;"	p	signature:(FILE *fp)
+sf_cleanup	include/espresso.h	/^extern void sf_cleanup();$/;"	p	signature:()
+sf_compress	include/espresso.h	/^extern pset_family sf_compress(pset_family A, register pset c);$/;"	p	signature:(pset_family A, register pset c)
+sf_contain	include/espresso.h	/^extern pset_family sf_contain(pset_family A);$/;"	p	signature:(pset_family A)
+sf_copy	include/espresso.h	/^extern pset_family sf_copy(pset_family R, pset_family A);$/;"	p	signature:(pset_family R, pset_family A)
+sf_copy_col	include/espresso.h	/^extern pset_family sf_copy_col(pset_family dst, pset_family src, int dstcol, int srccol);$/;"	p	signature:(pset_family dst, pset_family src, int dstcol, int srccol)
+sf_count	include/espresso.h	/^extern int *sf_count(pset_family A);$/;"	p	signature:(pset_family A)
+sf_count_restricted	include/espresso.h	/^extern int *sf_count_restricted(pset_family A, register pset r);$/;"	p	signature:(pset_family A, register pset r)
+sf_debug_print	include/espresso.h	/^extern void sf_debug_print();$/;"	p	signature:()
+sf_delc	include/espresso.h	/^extern pset_family sf_delc(pset_family A, int first, int last);$/;"	p	signature:(pset_family A, int first, int last)
+sf_delcol	include/espresso.h	/^extern pset_family sf_delcol(pset_family A, register int firstcol, register int n);$/;"	p	signature:(pset_family A, register int firstcol, register int n)
+sf_delset	include/espresso.h	/^extern void sf_delset(pset_family A, int i);$/;"	p	signature:(pset_family A, int i)
+sf_dupl	include/espresso.h	/^extern pset_family sf_dupl(pset_family A);$/;"	p	signature:(pset_family A)
+sf_free	include/espresso.h	/^extern void sf_free(pset_family A);$/;"	p	signature:(pset_family A)
+sf_inactive	include/espresso.h	/^extern pset_family sf_inactive(pset_family A);$/;"	p	signature:(pset_family A)
+sf_ind_contain	include/espresso.h	/^extern pset_family sf_ind_contain(pset_family A, int *row_indices);$/;"	p	signature:(pset_family A, int *row_indices)
+sf_ind_unlist	include/espresso.h	/^extern pset_family sf_ind_unlist(pset *A1, int totcnt, int size, int *row_indices, register pset pfirst);$/;"	p	signature:(pset *A1, int totcnt, int size, int *row_indices, register pset pfirst)
+sf_join	include/espresso.h	/^extern pset_family sf_join(pset_family A, pset_family B);$/;"	p	signature:(pset_family A, pset_family B)
+sf_list	include/espresso.h	/^extern pset *sf_list(register pset_family A);$/;"	p	signature:(register pset_family A)
+sf_merge	include/espresso.h	/^extern pset_family sf_merge(pset *A1, pset *B1, pset *E1, int totcnt, int size);$/;"	p	signature:(pset *A1, pset *B1, pset *E1, int totcnt, int size)
+sf_new	include/espresso.h	/^extern pset_family sf_new(int num, int size);$/;"	p	signature:(int num, int size)
+sf_or	include/espresso.h	/^extern pset sf_or(pset_family A);$/;"	p	signature:(pset_family A)
+sf_outdeg_sort	symm_util.c	/^sf_outdeg_sort(pcover F, pcover WSS, unsigned flag)$/;"	f	signature:(pcover F, pcover WSS, unsigned flag)
+sf_permute	include/espresso.h	/^extern pset_family sf_permute(pset_family A, register int *permute, register int npermute);$/;"	p	signature:(pset_family A, register int *permute, register int npermute)
+sf_print	include/espresso.h	/^extern void sf_print(pset_family A);$/;"	p	signature:(pset_family A)
+sf_read	include/espresso.h	/^extern pset_family sf_read(FILE *fp);$/;"	p	signature:(FILE *fp)
+sf_rev_contain	include/espresso.h	/^extern pset_family sf_rev_contain(pset_family A);$/;"	p	signature:(pset_family A)
+sf_save	include/espresso.h	/^extern pset_family sf_save(register pset_family A);$/;"	p	signature:(register pset_family A)
+sf_size	include/espresso.h	/^    int sf_size;                \/* User declared set size *\/$/;"	m	struct:set_family	access:public
+sf_size_sort	symm_util.c	/^sf_size_sort(pcover T, int op)$/;"	f	signature:(pcover T, int op)
+sf_sort	include/espresso.h	/^extern pset *sf_sort(pset_family A, int (* compare)());$/;"	p	signature:(pset_family A, int (* compare)())
+sf_transpose	include/espresso.h	/^extern pset_family sf_transpose(pset_family A);$/;"	p	signature:(pset_family A)
+sf_union	include/espresso.h	/^extern pset_family sf_union(pset_family A, pset_family B);$/;"	p	signature:(pset_family A, pset_family B)
+sf_unlist	include/espresso.h	/^extern pset_family sf_unlist(pset *A1, int totcnt, int size);$/;"	p	signature:(pset *A1, int totcnt, int size)
+sf_weight_sort	spm-old.h	/^extern void sf_weight_sort(pcover, unsigned);$/;"	p	signature:(pcover, unsigned)
+sf_weight_sort	spm.h	/^extern void sf_weight_sort(pcover, unsigned);$/;"	p	signature:(pcover, unsigned)
+sf_weight_sort	spm_util.c	/^void sf_weight_sort(pcover F, unsigned flag)$/;"	f	signature:(pcover F, unsigned flag)
+sf_write	include/espresso.h	/^extern void sf_write(pset_family A);$/;"	p	signature:(pset_family A)
+sf_xor	spm_util.c	/^pcover sf_xor(pcover A, pcover B)$/;"	f	signature:(pcover A, pcover B)
+sharp	include/espresso.h	/^extern pcover sharp();$/;"	p	signature:()
+show_all_spm	sym_heuristic.c	/^show_all_spm(pcover WSS, pcover SSS, pcover P)$/;"	f	signature:(pcover WSS, pcover SSS, pcover P)
+signature	include/espresso.h	/^extern pcover signature();$/;"	p	signature:()
+simp_comp	include/espresso.h	/^extern void simp_comp(pcube *T, pcover *Tnew, pcover *Tbar);$/;"	p	signature:(pcube *T, pcover *Tnew, pcover *Tbar)
+simplify	include/espresso.h	/^extern pcover simplify(pcube *T);$/;"	p	signature:(pcube *T)
+size	include/espresso.h	/^    int size;                   \/* set size of a cube *\/$/;"	m	struct:cube_struct	access:public
+size	sym_heuristic.c	/^static int *size;$/;"	v	file:
+size_sort	include/espresso.h	/^extern pcover size_sort(pcover T);$/;"	p	signature:(pcover T)
+size_stamp	include/espresso.h	/^extern void size_stamp();$/;"	p	signature:()
+skip_line	include/espresso.h	/^extern void skip_line(register FILE *fpin, register FILE *fpout, register bool echo);$/;"	p	signature:(register FILE *fpin, register FILE *fpout, register bool echo)
+sleep	include/port.h	/^extern VOID_HACK sleep();$/;"	p	signature:()
+sleep	include/port.h	/^extern unsigned sleep();$/;"	p	signature:()
+sm_alloc	include/sparse.h	/^extern sm_matrix *sm_alloc(), *sm_alloc_size(), *sm_dup();$/;"	p	signature:()
+sm_alloc_size	include/sparse.h	/^extern sm_matrix *sm_alloc(), *sm_alloc_size(), *sm_dup();$/;"	p	signature:()
+sm_block_partition	include/sparse.h	/^extern int sm_row_dominance(), sm_col_dominance(), sm_block_partition();$/;"	p	signature:()
+sm_cleanup	include/sparse.h	/^extern void sm_write(), sm_print(), sm_dump(), sm_cleanup();$/;"	p	signature:()
+sm_col	include/sparse.h	/^typedef struct sm_col_struct sm_col;$/;"	t	typeref:struct:sm_col_struct
+sm_col_alloc	include/sparse.h	/^extern sm_col *sm_col_alloc(), *sm_col_dup(), *sm_col_and();$/;"	p	signature:()
+sm_col_and	include/sparse.h	/^extern sm_col *sm_col_alloc(), *sm_col_dup(), *sm_col_and();$/;"	p	signature:()
+sm_col_compare	include/sparse.h	/^extern int sm_col_compare(), sm_col_hash();$/;"	p	signature:()
+sm_col_contains	include/sparse.h	/^extern int sm_col_contains(), sm_col_intersects();$/;"	p	signature:()
+sm_col_dominance	include/sparse.h	/^extern int sm_row_dominance(), sm_col_dominance(), sm_block_partition();$/;"	p	signature:()
+sm_col_dup	include/sparse.h	/^extern sm_col *sm_col_alloc(), *sm_col_dup(), *sm_col_and();$/;"	p	signature:()
+sm_col_find	include/sparse.h	/^extern sm_element *sm_col_insert(), *sm_col_find();$/;"	p	signature:()
+sm_col_free	include/sparse.h	/^extern void sm_col_free(), sm_col_remove(), sm_col_print();$/;"	p	signature:()
+sm_col_hash	include/sparse.h	/^extern int sm_col_compare(), sm_col_hash();$/;"	p	signature:()
+sm_col_insert	include/sparse.h	/^extern sm_element *sm_col_insert(), *sm_col_find();$/;"	p	signature:()
+sm_col_intersects	include/sparse.h	/^extern int sm_col_contains(), sm_col_intersects();$/;"	p	signature:()
+sm_col_print	include/sparse.h	/^extern void sm_col_free(), sm_col_remove(), sm_col_print();$/;"	p	signature:()
+sm_col_remove	include/sparse.h	/^extern void sm_col_free(), sm_col_remove(), sm_col_print();$/;"	p	signature:()
+sm_col_struct	include/sparse.h	/^struct sm_col_struct {$/;"	s
+sm_col_struct::col_num	include/sparse.h	/^    int col_num;		\/* the column number *\/$/;"	m	struct:sm_col_struct	access:public
+sm_col_struct::first_row	include/sparse.h	/^    sm_element *first_row;	\/* first element in this column *\/$/;"	m	struct:sm_col_struct	access:public
+sm_col_struct::flag	include/sparse.h	/^    int flag;			\/* user-defined word *\/$/;"	m	struct:sm_col_struct	access:public
+sm_col_struct::last_row	include/sparse.h	/^    sm_element *last_row;	\/* last element in this column *\/$/;"	m	struct:sm_col_struct	access:public
+sm_col_struct::length	include/sparse.h	/^    int length;			\/* number of elements in this column *\/$/;"	m	struct:sm_col_struct	access:public
+sm_col_struct::next_col	include/sparse.h	/^    sm_col *next_col;		\/* next column (in sm_matrix linked list) *\/$/;"	m	struct:sm_col_struct	access:public
+sm_col_struct::prev_col	include/sparse.h	/^    sm_col *prev_col;		\/* prev column (in sm_matrix linked list) *\/$/;"	m	struct:sm_col_struct	access:public
+sm_col_struct::user_word	include/sparse.h	/^    char *user_word;		\/* user-defined word *\/$/;"	m	struct:sm_col_struct	access:public
+sm_copy_col	include/sparse.h	/^extern void sm_copy_row(), sm_copy_col();$/;"	p	signature:()
+sm_copy_row	include/sparse.h	/^extern void sm_copy_row(), sm_copy_col();$/;"	p	signature:()
+sm_delcol	include/sparse.h	/^extern void sm_free(), sm_delrow(), sm_delcol(), sm_resize();$/;"	p	signature:()
+sm_delrow	include/sparse.h	/^extern void sm_free(), sm_delrow(), sm_delcol(), sm_resize();$/;"	p	signature:()
+sm_dump	include/sparse.h	/^extern void sm_write(), sm_print(), sm_dump(), sm_cleanup();$/;"	p	signature:()
+sm_dup	include/sparse.h	/^extern sm_matrix *sm_alloc(), *sm_alloc_size(), *sm_dup();$/;"	p	signature:()
+sm_element	include/sparse.h	/^typedef struct sm_element_struct sm_element;$/;"	t	typeref:struct:sm_element_struct
+sm_element_struct	include/sparse.h	/^struct sm_element_struct {$/;"	s
+sm_element_struct::col_num	include/sparse.h	/^    int col_num;		\/* column number of this element *\/$/;"	m	struct:sm_element_struct	access:public
+sm_element_struct::next_col	include/sparse.h	/^    sm_element *next_col;	\/* next column in this row *\/$/;"	m	struct:sm_element_struct	access:public
+sm_element_struct::next_row	include/sparse.h	/^    sm_element *next_row;	\/* next row in this column *\/$/;"	m	struct:sm_element_struct	access:public
+sm_element_struct::prev_col	include/sparse.h	/^    sm_element *prev_col;	\/* previous column in this row *\/$/;"	m	struct:sm_element_struct	access:public
+sm_element_struct::prev_row	include/sparse.h	/^    sm_element *prev_row;	\/* previous row in this column *\/$/;"	m	struct:sm_element_struct	access:public
+sm_element_struct::row_num	include/sparse.h	/^    int row_num;		\/* row number of this element *\/$/;"	m	struct:sm_element_struct	access:public
+sm_element_struct::user_word	include/sparse.h	/^    char *user_word;		\/* user-defined word *\/$/;"	m	struct:sm_element_struct	access:public
+sm_find	include/sparse.h	/^extern sm_element *sm_insert(), *sm_find();$/;"	p	signature:()
+sm_foreach_col	include/sparse.h	87;"	d
+sm_foreach_col_element	include/sparse.h	93;"	d
+sm_foreach_row	include/sparse.h	84;"	d
+sm_foreach_row_element	include/sparse.h	90;"	d
+sm_free	include/sparse.h	/^extern void sm_free(), sm_delrow(), sm_delcol(), sm_resize();$/;"	p	signature:()
+sm_get	include/sparse.h	99;"	d
+sm_get_col	include/sparse.h	76;"	d
+sm_get_row	include/sparse.h	80;"	d
+sm_insert	include/sparse.h	/^extern sm_element *sm_insert(), *sm_find();$/;"	p	signature:()
+sm_longest_col	include/sparse.h	/^extern sm_col *sm_longest_col();$/;"	p	signature:()
+sm_longest_row	include/sparse.h	/^extern sm_row *sm_longest_row();$/;"	p	signature:()
+sm_matrix	include/sparse.h	/^typedef struct sm_matrix_struct sm_matrix;$/;"	t	typeref:struct:sm_matrix_struct
+sm_matrix_struct	include/sparse.h	/^struct sm_matrix_struct {$/;"	s
+sm_matrix_struct::cols	include/sparse.h	/^    sm_col **cols;		\/* pointer to column headers (by col #) *\/$/;"	m	struct:sm_matrix_struct	access:public
+sm_matrix_struct::cols_size	include/sparse.h	/^    int cols_size;		\/* alloc'ed size of above array *\/$/;"	m	struct:sm_matrix_struct	access:public
+sm_matrix_struct::first_col	include/sparse.h	/^    sm_col *first_col;		\/* first column (linked list of columns) *\/$/;"	m	struct:sm_matrix_struct	access:public
+sm_matrix_struct::first_row	include/sparse.h	/^    sm_row *first_row;		\/* first row (linked list of all rows) *\/$/;"	m	struct:sm_matrix_struct	access:public
+sm_matrix_struct::last_col	include/sparse.h	/^    sm_col *last_col;		\/* last column (linked list of columns) *\/$/;"	m	struct:sm_matrix_struct	access:public
+sm_matrix_struct::last_row	include/sparse.h	/^    sm_row *last_row;		\/* last row (linked list of all rows) *\/$/;"	m	struct:sm_matrix_struct	access:public
+sm_matrix_struct::ncols	include/sparse.h	/^    int ncols;			\/* number of columns *\/$/;"	m	struct:sm_matrix_struct	access:public
+sm_matrix_struct::nrows	include/sparse.h	/^    int nrows;			\/* number of rows *\/$/;"	m	struct:sm_matrix_struct	access:public
+sm_matrix_struct::rows	include/sparse.h	/^    sm_row **rows;		\/* pointer to row headers (by row #) *\/$/;"	m	struct:sm_matrix_struct	access:public
+sm_matrix_struct::rows_size	include/sparse.h	/^    int rows_size;		\/* alloc'ed size of above array *\/$/;"	m	struct:sm_matrix_struct	access:public
+sm_matrix_struct::user_word	include/sparse.h	/^    char *user_word;		\/* user-defined word *\/$/;"	m	struct:sm_matrix_struct	access:public
+sm_minimum_cover	include/mincov.h	/^extern sm_row *sm_minimum_cover();$/;"	p	signature:()
+sm_print	include/sparse.h	/^extern void sm_write(), sm_print(), sm_dump(), sm_cleanup();$/;"	p	signature:()
+sm_put	include/sparse.h	96;"	d
+sm_read	include/sparse.h	/^extern int sm_read(), sm_read_compressed();$/;"	p	signature:()
+sm_read_compressed	include/sparse.h	/^extern int sm_read(), sm_read_compressed();$/;"	p	signature:()
+sm_remove	include/sparse.h	/^extern void sm_remove(), sm_remove_element();$/;"	p	signature:()
+sm_remove_element	include/sparse.h	/^extern void sm_remove(), sm_remove_element();$/;"	p	signature:()
+sm_resize	include/sparse.h	/^extern void sm_free(), sm_delrow(), sm_delcol(), sm_resize();$/;"	p	signature:()
+sm_row	include/sparse.h	/^typedef struct sm_row_struct sm_row;$/;"	t	typeref:struct:sm_row_struct
+sm_row_alloc	include/sparse.h	/^extern sm_row *sm_row_alloc(), *sm_row_dup(), *sm_row_and();$/;"	p	signature:()
+sm_row_and	include/sparse.h	/^extern sm_row *sm_row_alloc(), *sm_row_dup(), *sm_row_and();$/;"	p	signature:()
+sm_row_compare	include/sparse.h	/^extern int sm_row_compare(), sm_row_hash();$/;"	p	signature:()
+sm_row_contains	include/sparse.h	/^extern int sm_row_contains(), sm_row_intersects();$/;"	p	signature:()
+sm_row_dominance	include/sparse.h	/^extern int sm_row_dominance(), sm_col_dominance(), sm_block_partition();$/;"	p	signature:()
+sm_row_dup	include/sparse.h	/^extern sm_row *sm_row_alloc(), *sm_row_dup(), *sm_row_and();$/;"	p	signature:()
+sm_row_find	include/sparse.h	/^extern sm_element *sm_row_insert(), *sm_row_find();$/;"	p	signature:()
+sm_row_free	include/sparse.h	/^extern void sm_row_free(), sm_row_remove(), sm_row_print();$/;"	p	signature:()
+sm_row_hash	include/sparse.h	/^extern int sm_row_compare(), sm_row_hash();$/;"	p	signature:()
+sm_row_insert	include/sparse.h	/^extern sm_element *sm_row_insert(), *sm_row_find();$/;"	p	signature:()
+sm_row_intersects	include/sparse.h	/^extern int sm_row_contains(), sm_row_intersects();$/;"	p	signature:()
+sm_row_print	include/sparse.h	/^extern void sm_row_free(), sm_row_remove(), sm_row_print();$/;"	p	signature:()
+sm_row_remove	include/sparse.h	/^extern void sm_row_free(), sm_row_remove(), sm_row_print();$/;"	p	signature:()
+sm_row_struct	include/sparse.h	/^struct sm_row_struct {$/;"	s
+sm_row_struct::first_col	include/sparse.h	/^    sm_element *first_col;	\/* first element in this row *\/$/;"	m	struct:sm_row_struct	access:public
+sm_row_struct::flag	include/sparse.h	/^    int flag;			\/* user-defined word *\/$/;"	m	struct:sm_row_struct	access:public
+sm_row_struct::last_col	include/sparse.h	/^    sm_element *last_col;	\/* last element in this row *\/$/;"	m	struct:sm_row_struct	access:public
+sm_row_struct::length	include/sparse.h	/^    int length;			\/* number of elements in this row *\/$/;"	m	struct:sm_row_struct	access:public
+sm_row_struct::next_row	include/sparse.h	/^    sm_row *next_row;		\/* next row (in sm_matrix linked list) *\/$/;"	m	struct:sm_row_struct	access:public
+sm_row_struct::prev_row	include/sparse.h	/^    sm_row *prev_row;		\/* previous row (in sm_matrix linked list) *\/$/;"	m	struct:sm_row_struct	access:public
+sm_row_struct::row_num	include/sparse.h	/^    int row_num;		\/* the row number *\/$/;"	m	struct:sm_row_struct	access:public
+sm_row_struct::user_word	include/sparse.h	/^    char *user_word;		\/* user-defined word *\/$/;"	m	struct:sm_row_struct	access:public
+sm_write	include/sparse.h	/^extern void sm_write(), sm_print(), sm_dump(), sm_cleanup();$/;"	p	signature:()
+so_both_do_espresso	include/espresso.h	/^extern int so_both_do_espresso(pPLA PLA, int i);$/;"	p	signature:(pPLA PLA, int i)
+so_both_do_exact	include/espresso.h	/^extern int so_both_do_exact(pPLA PLA, int i);$/;"	p	signature:(pPLA PLA, int i)
+so_both_espresso	include/espresso.h	/^extern void so_both_espresso(pPLA PLA, int strategy);$/;"	p	signature:(pPLA PLA, int strategy)
+so_both_save	include/espresso.h	/^extern int so_both_save(pPLA PLA, int i);$/;"	p	signature:(pPLA PLA, int i)
+so_do_espresso	include/espresso.h	/^extern int so_do_espresso(pPLA PLA, int i);$/;"	p	signature:(pPLA PLA, int i)
+so_do_exact	include/espresso.h	/^extern int so_do_exact(pPLA PLA, int i);$/;"	p	signature:(pPLA PLA, int i)
+so_espresso	include/espresso.h	/^extern void so_espresso(pPLA PLA, int strategy);$/;"	p	signature:(pPLA PLA, int strategy)
+so_save	include/espresso.h	/^extern int so_save(pPLA PLA, int i);$/;"	p	signature:(pPLA PLA, int i)
+sort_reduce	include/espresso.h	/^extern pcover sort_reduce(pcover T);$/;"	p	signature:(pcover T)
+space	include/array.h	/^    char *space;$/;"	m	struct:array_t	access:public
+sparse	include/espresso.h	/^    int *sparse;                \/* should this variable be sparse? *\/$/;"	m	struct:cube_struct	access:public
+spm	spm.h	/^    pcover  spm;          \/* symmetric pair matrix *\/$/;"	m	struct:spm_manager	access:public
+spm_manager	spm.h	/^typedef struct spm_manager$/;"	s
+spm_manager::nin	spm.h	/^    int     nin;$/;"	m	struct:spm_manager	access:public
+spm_manager::nou	spm.h	/^    int     nou;$/;"	m	struct:spm_manager	access:public
+spm_manager::pset_spms	spm.h	/^    pset    *pset_spms;   \/*  array of spm_sets for all output *\/$/;"	m	struct:spm_manager	access:public
+spm_manager::pspms	spm.h	/^    pcover  *pspms;       \/* array of spm's for all output *\/$/;"	m	struct:spm_manager	access:public
+spm_manager::set_out	spm.h	/^    pset    set_out;$/;"	m	struct:spm_manager	access:public
+spm_manager::set_spm	spm.h	/^    pset    set_spm;      \/* nin bits for global output *\/$/;"	m	struct:spm_manager	access:public
+spm_manager::spm	spm.h	/^    pcover  spm;          \/* symmetric pair matrix *\/$/;"	m	struct:spm_manager	access:public
+spm_manager::support	spm.h	/^    pset    *support;      \/* support sets for all output *\/$/;"	m	struct:spm_manager	access:public
+sprint	spm_util.c	/^void sprint(pset p)$/;"	f	signature:(pset p)
+sprintf	include/port.h	/^extern char *sprintf();$/;"	p	signature:()
+sprintf	include/port.h	/^extern int sprintf();$/;"	p	signature:()
+srandom	include/port.h	/^extern VOID_HACK srandom();$/;"	p	signature:()
+sscanf	include/port.h	/^extern int sscanf();$/;"	p	signature:()
+st_add_direct	include/st.h	/^extern void st_add_direct$/;"	p	signature:(st_table *table, char *key, char *value)
+st_copy	include/st.h	/^extern st_table *st_copy$/;"	p	signature:(st_table *old_table)
+st_count	include/st.h	42;"	d
+st_delete	include/st.h	/^extern int st_delete$/;"	p	signature:(st_table *table, char **keyp, char **value)
+st_find	include/st.h	/^extern int st_find$/;"	p	signature:(st_table *table, char *key, char ***slot)
+st_find_or_add	include/st.h	/^extern int st_find_or_add$/;"	p	signature:(st_table *table, char *key, char ***slot)
+st_foreach	include/st.h	/^extern int st_foreach$/;"	p	signature:(st_table *table, enum st_retval (*func)(), char *arg)
+st_foreach_item	include/st.h	109;"	d
+st_free_gen	include/st.h	/^extern void st_free_gen$/;"	p	signature:(st_generator *gen)
+st_free_table	include/st.h	/^extern void st_free_table$/;"	p	signature:(st_table *table)
+st_gen	include/st.h	/^extern int st_gen$/;"	p	signature:(st_generator *gen, char **key_p, char **value_p)
+st_generator	include/st.h	/^typedef struct _st_generator st_generator;$/;"	t	typeref:struct:_st_generator
+st_init_gen	include/st.h	/^extern st_generator *st_init_gen$/;"	p	signature:(st_table *table)
+st_init_table	include/st.h	/^extern st_table *st_init_table$/;"	p	signature:(int (*compare)(), int (*hash)())
+st_init_table_with_params	include/st.h	/^extern st_table *st_init_table_with_params$/;"	p	signature:(int (*compare)(), int (*hash)(), int size, int density, double grow_factor, int reorder_flag)
+st_insert	include/st.h	/^extern int st_insert$/;"	p	signature:(st_table *table, char *key, char *value)
+st_is_member	include/st.h	41;"	d
+st_lookup	include/st.h	/^extern int st_lookup$/;"	p	signature:(st_table *table, char *key, char **value)
+st_numcmp	include/st.h	/^extern int st_numcmp$/;"	p	signature:(char *x, char *y)
+st_numhash	include/st.h	/^extern int st_numhash$/;"	p	signature:(char *x, int size)
+st_ptrcmp	include/st.h	/^extern int st_ptrcmp$/;"	p	signature:(char *x, char *y)
+st_ptrhash	include/st.h	/^extern int st_ptrhash$/;"	p	signature:(char *x, int size)
+st_retval	include/st.h	/^enum st_retval {ST_CONTINUE, ST_STOP, ST_DELETE};$/;"	g
+st_strhash	include/st.h	/^extern int st_strhash$/;"	p	signature:(char *string, int modulus)
+st_table	include/st.h	/^typedef struct _st_table st_table;$/;"	t	typeref:struct:_st_table
+st_table_entry	include/st.h	/^typedef struct _st_table_entry st_table_entry;$/;"	t	typeref:struct:_st_table_entry
+status	spm-old.h	/^        bool *status;$/;"	m	struct:weight_pair	access:public
+status	spm.h	/^    bool *status;$/;"	m	struct:weight_pair	access:public
+strcat	include/port.h	/^extern char *strcpy(), *strncpy(), *strcat(), *strncat(), *strerror();$/;"	p	signature:()
+strchr	include/port.h	/^extern char *strpbrk(), *strtok(), *strchr(), *strrchr(), *strstr();$/;"	p	signature:()
+strcmp	include/port.h	/^extern int memcmp(), strcmp();$/;"	p	signature:()
+strcoll	include/port.h	/^extern int strcoll(), strxfrm(), strncmp(), strlen(), strspn(), strcspn();$/;"	p	signature:()
+strcpy	include/port.h	/^extern char *strcpy(), *strncpy(), *strcat(), *strncat(), *strerror();$/;"	p	signature:()
+strcspn	include/port.h	/^extern int strcoll(), strxfrm(), strncmp(), strlen(), strspn(), strcspn();$/;"	p	signature:()
+strerror	include/port.h	/^extern char *strcpy(), *strncpy(), *strcat(), *strncat(), *strerror();$/;"	p	signature:()
+strlen	include/port.h	/^extern int strcoll(), strxfrm(), strncmp(), strlen(), strspn(), strcspn();$/;"	p	signature:()
+strncat	include/port.h	/^extern char *strcpy(), *strncpy(), *strcat(), *strncat(), *strerror();$/;"	p	signature:()
+strncmp	include/port.h	/^extern int strcoll(), strxfrm(), strncmp(), strlen(), strspn(), strcspn();$/;"	p	signature:()
+strncpy	include/port.h	/^extern char *strcpy(), *strncpy(), *strcat(), *strncat(), *strerror();$/;"	p	signature:()
+strpbrk	include/port.h	/^extern char *strpbrk(), *strtok(), *strchr(), *strrchr(), *strstr();$/;"	p	signature:()
+strrchr	include/port.h	/^extern char *strpbrk(), *strtok(), *strchr(), *strrchr(), *strstr();$/;"	p	signature:()
+strsav	include/espresso.h	/^extern char *strsav();$/;"	p	signature:()
+strspn	include/port.h	/^extern int strcoll(), strxfrm(), strncmp(), strlen(), strspn(), strcspn();$/;"	p	signature:()
+strstr	include/port.h	/^extern char *strpbrk(), *strtok(), *strchr(), *strrchr(), *strstr();$/;"	p	signature:()
+strtok	include/port.h	/^extern char *strpbrk(), *strtok(), *strchr(), *strrchr(), *strstr();$/;"	p	signature:()
+strxfrm	include/port.h	/^extern int strcoll(), strxfrm(), strncmp(), strlen(), strspn(), strcspn();$/;"	p	signature:()
+sunos3	include/port.h	62;"	d
+sunos4	include/port.h	60;"	d
+super_gasp	include/espresso.h	/^extern pcover super_gasp();$/;"	p	signature:()
+support	spm.h	/^    pset    *support;      \/* support sets for all output *\/$/;"	m	struct:spm_manager	access:public
+symbolic	include/espresso.h	/^    symbolic_t *symbolic;	\/* allow binary->symbolic mapping *\/$/;"	m	struct:__anon1	access:public
+symbolic_hack_labels	include/espresso.h	/^extern void symbolic_hack_labels(pPLA PLA, symbolic_t *list, pset compress, int new_size, int old_size, int size_added);$/;"	p	signature:(pPLA PLA, symbolic_t *list, pset compress, int new_size, int old_size, int size_added)
+symbolic_label	include/espresso.h	/^    symbolic_label_t *symbolic_label;	\/* linked list of new names *\/$/;"	m	struct:symbolic_struct	access:public
+symbolic_label_length	include/espresso.h	/^    int symbolic_label_length;		\/* length of symbolic_label list *\/$/;"	m	struct:symbolic_struct	access:public
+symbolic_label_struct	include/espresso.h	/^typedef struct symbolic_label_struct {$/;"	s
+symbolic_label_struct::label	include/espresso.h	/^    char *label;$/;"	m	struct:symbolic_label_struct	access:public
+symbolic_label_struct::next	include/espresso.h	/^    struct symbolic_label_struct *next;$/;"	m	struct:symbolic_label_struct	typeref:struct:symbolic_label_struct::symbolic_label_struct	access:public
+symbolic_label_t	include/espresso.h	/^} symbolic_label_t;$/;"	t	typeref:struct:symbolic_label_struct
+symbolic_list	include/espresso.h	/^    symbolic_list_t *symbolic_list;	\/* linked list of items *\/$/;"	m	struct:symbolic_struct	access:public
+symbolic_list_length	include/espresso.h	/^    int symbolic_list_length;		\/* length of symbolic_list list *\/$/;"	m	struct:symbolic_struct	access:public
+symbolic_list_struct	include/espresso.h	/^typedef struct symbolic_list_struct {$/;"	s
+symbolic_list_struct::next	include/espresso.h	/^    struct symbolic_list_struct *next;$/;"	m	struct:symbolic_list_struct	typeref:struct:symbolic_list_struct::symbolic_list_struct	access:public
+symbolic_list_struct::pos	include/espresso.h	/^    int pos;$/;"	m	struct:symbolic_list_struct	access:public
+symbolic_list_struct::variable	include/espresso.h	/^    int variable;$/;"	m	struct:symbolic_list_struct	access:public
+symbolic_list_t	include/espresso.h	/^} symbolic_list_t;$/;"	t	typeref:struct:symbolic_list_struct
+symbolic_output	include/espresso.h	/^    symbolic_t *symbolic_output;\/* allow symbolic output mapping *\/$/;"	m	struct:__anon1	access:public
+symbolic_struct	include/espresso.h	/^typedef struct symbolic_struct {$/;"	s
+symbolic_struct::next	include/espresso.h	/^    struct symbolic_struct *next;$/;"	m	struct:symbolic_struct	typeref:struct:symbolic_struct::symbolic_struct	access:public
+symbolic_struct::symbolic_label	include/espresso.h	/^    symbolic_label_t *symbolic_label;	\/* linked list of new names *\/$/;"	m	struct:symbolic_struct	access:public
+symbolic_struct::symbolic_label_length	include/espresso.h	/^    int symbolic_label_length;		\/* length of symbolic_label list *\/$/;"	m	struct:symbolic_struct	access:public
+symbolic_struct::symbolic_list	include/espresso.h	/^    symbolic_list_t *symbolic_list;	\/* linked list of items *\/$/;"	m	struct:symbolic_struct	access:public
+symbolic_struct::symbolic_list_length	include/espresso.h	/^    int symbolic_list_length;		\/* length of symbolic_list list *\/$/;"	m	struct:symbolic_struct	access:public
+symbolic_t	include/espresso.h	/^} symbolic_t;$/;"	t	typeref:struct:symbolic_struct
+system	include/port.h	/^extern int system();$/;"	p	signature:()
+table	include/st.h	/^    st_table *table;$/;"	m	struct:_st_generator	access:public
+taut_special_cases	include/espresso.h	/^extern bool taut_special_cases();$/;"	p	signature:()
+tautology	include/espresso.h	/^extern bool tautology();$/;"	p	signature:()
+temp	include/espresso.h	/^    pset *temp;                 \/* an array of temporary sets *\/$/;"	m	struct:cube_struct	access:public
+tmpF	khwang_symmetry.c	/^static pcover tmpF;$/;"	v	file:
+tmpfile	include/port.h	/^extern FILE *popen(), *tmpfile();$/;"	p	signature:()
+total	include/espresso.h	/^    int total;			\/* total number of transistors *\/$/;"	m	struct:cost_struct	access:public
+totals	include/espresso.h	/^extern void totals();$/;"	p	signature:()
+ttime	sym_exact.c	/^static long ttime;$/;"	v	file:
+ultrix2	include/port.h	56;"	d
+ultrix3	include/port.h	54;"	d
+unate_compl	include/espresso.h	/^extern pset_family unate_compl();$/;"	p	signature:()
+unate_complement	include/espresso.h	/^extern pset_family unate_complement();$/;"	p	signature:()
+unate_intersect	include/espresso.h	/^extern pset_family unate_intersect();$/;"	p	signature:()
+uncof_output	include/espresso.h	/^extern pcover uncof_output(pcover T, int i);$/;"	p	signature:(pcover T, int i)
+unravel	include/espresso.h	/^extern pcover unravel(pcover B, int start);$/;"	p	signature:(pcover B, int start)
+unravel_range	include/espresso.h	/^extern pcover unravel_range(pcover B, int start, int end);$/;"	p	signature:(pcover B, int start, int end)
+upFlag	khwang_symmetry.c	/^static bool upFlag;$/;"	v	file:
+uprintf	include/uprintf.h	/^extern char *uprintf$/;"	p	signature:(char *buf, char *upf_fmt, va_list *ap)
+user_word	include/sparse.h	/^    char *user_word;		\/* user-defined word *\/$/;"	m	struct:sm_col_struct	access:public
+user_word	include/sparse.h	/^    char *user_word;		\/* user-defined word *\/$/;"	m	struct:sm_element_struct	access:public
+user_word	include/sparse.h	/^    char *user_word;		\/* user-defined word *\/$/;"	m	struct:sm_matrix_struct	access:public
+user_word	include/sparse.h	/^    char *user_word;		\/* user-defined word *\/$/;"	m	struct:sm_row_struct	access:public
+util_cpu_time	include/utility.h	/^extern long  util_cpu_time();$/;"	p	signature:()
+util_csystem	include/utility.h	/^extern int   util_csystem$/;"	p	signature:(char *command)
+util_file_search	include/utility.h	/^extern char *util_file_search$/;"	p	signature:(char *file, char *path, char *mode)
+util_path_search	include/utility.h	/^extern char *util_path_search$/;"	p	signature:(char *program)
+util_pipefork	include/utility.h	/^extern int   util_pipefork$/;"	p	signature:(char **argv, FILE **toCommand, FILE **fromCommand)
+util_print_time	include/utility.h	/^extern char *util_print_time$/;"	p	signature:(long t)
+util_strsav	include/utility.h	/^extern char *util_strsav$/;"	p	signature:(char *ptr)
+util_tilde_expand	include/utility.h	/^extern char *util_tilde_expand$/;"	p	signature:(char *filename)
+val	spm-old.h	/^        unsigned val;$/;"	m	struct:weight_pair	access:public
+val	spm.h	/^    unsigned int  val;$/;"	m	struct:Skew_Ds	access:public
+val	spm.h	/^    unsigned val;$/;"	m	struct:weight_pair	access:public
+value	include/espresso.h	/^    int value;$/;"	m	struct:pla_types_struct	access:public
+value	include/main.h	/^    int value;$/;"	m	struct:__anon3	access:public
+value	include/main.h	/^    int value;$/;"	m	struct:__anon4	access:public
+var1	include/espresso.h	/^    int *var1;$/;"	m	struct:pair_struct	access:public
+var2	include/espresso.h	/^    int *var2;$/;"	m	struct:pair_struct	access:public
+var_get	khwang/khwang_general.c	/^unsigned var_get(pset a, int x)$/;"	f	signature:(pset a, int x)
+var_get	khwang_symmetry.c	/^unsigned var_get(pset a, int x)$/;"	f	signature:(pset a, int x)
+var_get	spm.h	/^unsigned var_get(pset a, int x);$/;"	p	signature:(pset a, int x)
+var_mask	include/espresso.h	/^    pset *var_mask;             \/* mask to extract a variable *\/$/;"	m	struct:cube_struct	access:public
+var_remove	khwang/khwang_general.c	/^void var_remove(pset a, int x)$/;"	f	signature:(pset a, int x)
+var_remove	khwang_symmetry.c	/^void var_remove(pset a, int x)$/;"	f	signature:(pset a, int x)
+var_remove	spm.h	/^void var_remove(pset a, int x);$/;"	p	signature:(pset a, int x)
+var_set	khwang/khwang_general.c	/^void var_set(pset a, int x, unsigned int val)$/;"	f	signature:(pset a, int x, unsigned int val)
+var_set	khwang_symmetry.c	/^void var_set(pset a, int x, unsigned int val)$/;"	f	signature:(pset a, int x, unsigned int val)
+var_set	spm.h	/^void var_set(pset a, int x, unsigned int val);$/;"	p	signature:(pset a, int x, unsigned int val)
+var_zeros	include/espresso.h	/^    int *var_zeros;             \/* count of zeros for each variable *\/$/;"	m	struct:cdata_struct	access:public
+variable	include/espresso.h	/^    int variable;$/;"	m	struct:symbolic_list_struct	access:public
+variable	include/main.h	/^    int *variable;$/;"	m	struct:__anon4	access:public
+vars_active	include/espresso.h	/^    int vars_active;            \/* number of "active" variables *\/$/;"	m	struct:cdata_struct	access:public
+vars_unate	include/espresso.h	/^    int vars_unate;             \/* number of unate variables *\/$/;"	m	struct:cdata_struct	access:public
+verify	include/espresso.h	/^extern bool verify();$/;"	p	signature:()
+void	include/espresso.h	16;"	d
+weight_pair	spm-old.h	/^typedef struct weight_pair {$/;"	s
+weight_pair	spm.h	/^typedef struct weight_pair$/;"	s
+weight_pair::Vout	spm-old.h	/^        double   Vout;$/;"	m	struct:weight_pair	access:public
+weight_pair::Vout	spm.h	/^    double   Vout;$/;"	m	struct:weight_pair	access:public
+weight_pair::cnt	spm-old.h	/^	unsigned long cnt;$/;"	m	struct:weight_pair	access:public
+weight_pair::cnt	spm.h	/^    unsigned long cnt;$/;"	m	struct:weight_pair	access:public
+weight_pair::first	spm-old.h	/^        unsigned first;$/;"	m	struct:weight_pair	access:public
+weight_pair::first	spm.h	/^    unsigned first;$/;"	m	struct:weight_pair	access:public
+weight_pair::num	spm-old.h	/^        unsigned num;$/;"	m	struct:weight_pair	access:public
+weight_pair::num	spm.h	/^    unsigned num;$/;"	m	struct:weight_pair	access:public
+weight_pair::ptr	spm-old.h	/^	pset ptr;$/;"	m	struct:weight_pair	access:public
+weight_pair::ptr	spm.h	/^    pset ptr;$/;"	m	struct:weight_pair	access:public
+weight_pair::status	spm-old.h	/^        bool *status;$/;"	m	struct:weight_pair	access:public
+weight_pair::status	spm.h	/^    bool *status;$/;"	m	struct:weight_pair	access:public
+weight_pair::val	spm-old.h	/^        unsigned val;$/;"	m	struct:weight_pair	access:public
+weight_pair::val	spm.h	/^    unsigned val;$/;"	m	struct:weight_pair	access:public
+weight_pair::wet	spm-old.h	/^        unsigned wet;$/;"	m	struct:weight_pair	access:public
+weight_pair::wet	spm.h	/^    unsigned wet;$/;"	m	struct:weight_pair	access:public
+weight_pair_t	spm-old.h	/^} weight_pair_t, *pweight_pair;$/;"	t	typeref:struct:weight_pair
+weight_pair_t	spm.h	/^} weight_pair_t, *pweight_pair;$/;"	t	typeref:struct:weight_pair
+wet	spm-old.h	/^        unsigned wet;$/;"	m	struct:weight_pair	access:public
+wet	spm.h	/^    unsigned wet;$/;"	m	struct:weight_pair	access:public
+wsize	include/espresso.h	/^    int wsize;                  \/* Size of each set in 'ints' *\/$/;"	m	struct:set_family	access:public
